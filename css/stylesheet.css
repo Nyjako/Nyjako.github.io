@@ -1,0 +1,47 @@
+html{
+    height: 100vh;
+    background: linear-gradient(to bottom, #7927b2, #fb3182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a { 
+    color: black;
+}
+.card
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    margin: 0%;
+    width: fit-content;
+    height: fit-content;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: xx-large;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Helvetica;
+    border-radius: 0px black;
+}
+.card:hover
+{
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+    border: 50px solid black;
+    border-radius: 100px;
+    filter: invert(100%);
+}
+.card:not(:hover)
+{
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+    background-color: black;
+    color: white;
+    border: 0px solid black;
+    border-radius: 0px black;
+}
