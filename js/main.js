@@ -17,9 +17,9 @@ window.addEventListener('resize', updateElements);
 
 function clicked() {
     if (ellList.length == 0) {
+        document.getElementById("info").innerHTML = "";
         getSize();
         document.getElementById("card").className = "card clicked";
-        document.getElementById("text").style = 'transition: all 0.5s; transition-timing-function: ease-in-out; opacity: 0;';
         loadProjects();
     }
 }
@@ -40,7 +40,7 @@ const loadProjects = async () => {
         d.innerHTML += `<a class="kafelek" href="${data.projects[i].url}" target="_blank"><h1>${data.projects[i].name}</h1><video style="width:100%;" loop autoplay><source src="${data.projects[i].img}" type="video/mp4">Your browser does not support the video tag.</video><span class="desc">${data.projects[i].desc}</span>`
         document.getElementById("projects").appendChild(d);
         ellList.push(d);
-        await delay(300);
+        await delay(200);
     }
 }
 
