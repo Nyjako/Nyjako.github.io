@@ -1,61 +1,119 @@
-html
-{
-    height: 100vh;
-    background: linear-gradient(to bottom, #7927b2, #fb3182);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(121,39,178,1) 35%, rgb(202, 16, 90) 100%);
 }
-a 
-{ 
+html::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: rgb(82, 0, 82);;
+}
+html::-webkit-scrollbar-thumb
+{
+	background-color: purple
+}
+
+.qLinks {
     color: black;
     margin: 0px;
     padding: 0px;
     width: 0px;
     height: 0px;
 }
-a:hover
-{
+
+.qLinks:hover {
     transition: all 0.3s;
     transition-timing-function: ease-in-out;
-    filter: drop-shadow(0px 0px 10px rgb(127,255,127));
+    filter: drop-shadow(0px 0px 10px rgb(127, 255, 127));
 }
-a:not(:hover)
-{
+
+.qLinks:not(:hover) {
     transition: all 0.3s;
     transition-timing-function: ease-in-out;
 }
 
-.card
-{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
-    margin: 0%;
-    width: fit-content;
+.card {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    width: 45%;
     height: fit-content;
     vertical-align: middle;
     text-align: center;
     color: white;
     background-color: black;
     font-size: xx-large;
-    position: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-family: Helvetica;
     border-radius: 0px black;
-}
-.card:hover
-{
-    transition: all 0.5s;
+    transition: all 0.55s;
     transition-timing-function: ease-in-out;
+}
+
+.clicked {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 80%;
+    font-size: xx-large;
     border-radius: 100px;
     filter: drop-shadow(16px 16px 20px white) invert(100%);
+    top: 2%;
+    transform: translate(-50%, 0%);
+    padding-bottom: 45px;
 }
-.card:not(:hover)
-{
+
+.projects {
+    filter: invert(100%);
+    width: 100%;
+    height: fit-content;
     transition: all 0.5s;
     transition-timing-function: ease-in-out;
-    background-color: black;
+}
+
+.kafelek, .kafelekMobile {
+    display: inline-table;
+    text-decoration: none;
+    table-layout: fixed;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: purple;
     color: white;
-    border-radius: 0px black;
+    margin: 10px;
+    border: 5px solid purple;
+    animation: kafelekApear 1.5s ease-in-out;
+
+    opacity: 1;
+    font-size: large;
+    transition: all 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.kafelekMobile {
+    display: grid;
+}
+
+.kafelek:hover, .kafelekMobile {
+    color: black;
+    background-color: white;
+}
+
+@keyframes kafelekApear {
+    0% {
+        height: 0px;
+        opacity: 0;
+        font-size: 0mm;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        height: fit-content;
+        font-size: large;
+    }
 }

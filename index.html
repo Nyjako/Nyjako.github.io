@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nyjako</title>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="data/data.js"></script>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">
+    <link rel="icon" href="/images/n.png">
 </head>
-<body style="margin: 0;">
-    <div class="card">
+
+<body style="margin: 0; width: 100%; height: 100%;">
+    <div id="card" class="card" onclick="clicked();">
         <h1>Nyjako</h1>
         <div>I'm random guy who like to code stuff</div>
         <div style="font-size: x-large; margin-top: 30px; margin-bottom: 10px;">You can find me there</div>
         <div style="margin-top: 25px; margin-bottom: 0px;">
-            <a href="https://steamcommunity.com/id/Nyjako" target="_blank">
+            <a class="qLinks" href="https://steamcommunity.com/id/Nyjako" target="_blank">
                 <img src="images/steam.png" width="80" height="80" style="filter: invert(100%);" alt="Steam">
             </a>
-            <a href="https://github.com/Nyjako" target="_blank">
+            <a class="qLinks" href="https://github.com/Nyjako" target="_blank">
                 <img src="images/github.png" width="80" height="80" style="filter: invert(100%);" alt="Github">
             </a>
         </div>
+        <div style="font-size: x-large; margin-top: 30px; margin-bottom: 0px;">
+            <span id="text">↓ <i>Click card for projects list</i> ↓</span>
+        </div>
+        <div class="projects" id="projects"></div>
     </div>
 </body>
+
 </html>
