@@ -17,6 +17,7 @@ window.addEventListener('resize', updateElements);
 
 function clicked() {
     if (ellList.length == 0) {
+        document.getElementById("Nyjako").style += "margin-top: 0;";
         document.getElementById("info").innerHTML = "";
         getSize();
         document.getElementById("card").className = "card clicked";
@@ -37,7 +38,7 @@ const loadProjects = async () => {
     for (let i = 0; i < data.projects.length; i++) {
         let d = document.createElement("div");
         d.style = `width: ${c}%; display: inline-table; table-layout: fixed;`
-        d.innerHTML += `<a class="kafelek" href="${data.projects[i].url}" target="_blank"><h1>${data.projects[i].name}</h1><video style="width:100%;" loop autoplay><source src="${data.projects[i].img}" type="video/mp4">Your browser does not support the video tag.</video><span class="desc">${data.projects[i].desc}</span>`
+        d.innerHTML += `<a class="kafelek" href="${data.projects[i].url}" target="_blank"><h1 style="font-size: 3vw;">${data.projects[i].name}</h1><video style="width:100%;" loop autoplay><source src="${data.projects[i].img}" type="video/mp4">Your browser does not support the video tag.</video><i class="subText">${data.projects[i].desc}</i>`
         document.getElementById("projects").appendChild(d);
         ellList.push(d);
         await delay(200);

@@ -43,7 +43,7 @@ html::-webkit-scrollbar-thumb
     text-align: center;
     color: white;
     background-color: black;
-    font-size: xx-large;
+    font-size: 2vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -58,7 +58,7 @@ html::-webkit-scrollbar-thumb
     padding-left: 25px;
     padding-right: 25px;
     width: 80%;
-    font-size: xx-large;
+    font-size: 3vw;
     border-radius: 100px;
     filter: drop-shadow(16px 16px 20px white) invert(100%);
     top: 2%;
@@ -100,6 +100,10 @@ html::-webkit-scrollbar-thumb
 .kafelek:hover, .kafelekMobile {
     color: black;
     background-color: white;
+}
+
+.subText {
+    font-size: 1.3vw;
 }
 
 @keyframes kafelekApear {
