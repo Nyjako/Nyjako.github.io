@@ -1,14 +1,15 @@
 let size;
 let ellList = [];
+let longest = 0;
 
 function updateElements() {
     if(ellList.length > 0) {
         getSize();
         let c;
-        if (size.width > size.height) c = 50;
-        else c = 100;
+    if (size.width > size.height) c = 'kSmall';
+    else c = 'kBig';
         for(let i = 0; i < ellList.length; i++) {
-            ellList[i].style = `width: ${c}%; display: inline-table; table-layout: fixed;`
+            ellList[i].className = c;
         }
     }
 }
@@ -33,15 +34,15 @@ const delay = async (time) => {
 
 const loadProjects = async () => {
     let c;
-    if (size.width > size.height) c = 50;
-    else c = 100;
+    if (size.width > size.height) c = 'kSmall';
+    else c = 'kBig';
     for (let i = 0; i < data.projects.length; i++) {
         let d = document.createElement("div");
-        d.style = `width: ${c}%; display: inline-table; table-layout: fixed;`
+        d.className = c;
         d.innerHTML += `<a class="kafelek" href="${data.projects[i].url}" target="_blank"><h1 style="font-size: 3vw;">${data.projects[i].name}</h1><video style="width:100%;" loop autoplay><source src="${data.projects[i].img}" type="video/mp4">Your browser does not support the video tag.</video><i class="subText">${data.projects[i].desc}</i>`
         document.getElementById("projects").appendChild(d);
         ellList.push(d);
-        await delay(200);
+        if((i+1)%2 == 0) await delay(500);
     }
 }
 

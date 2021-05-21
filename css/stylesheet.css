@@ -38,7 +38,7 @@ html::-webkit-scrollbar-thumb
     padding-right: 5%;
     padding-bottom: 2%;
     width: 45%;
-    height: fit-content;
+    max-height: 60000;
     vertical-align: middle;
     text-align: center;
     color: white;
@@ -49,9 +49,51 @@ html::-webkit-scrollbar-thumb
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: Helvetica;
-    border-radius: 0px black;
-    transition: all 0.55s;
+    animation: cardAnimation 3s ease-in-out;
+    transition: all 0.5s;
     transition-timing-function: ease-in-out;
+}
+@keyframes cardAnimation {
+    0% {
+        padding: 0;
+        opacity: 0;
+        width: 0px;
+        max-height: 2px;
+    }
+    15% {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 2%;
+        opacity: 1;
+        width: 0px;
+        max-height: 2px;
+    }
+
+    40% {
+        width: 45%;
+        max-height: 2px;
+    }
+
+    90% {
+        max-height: 100%;
+    }
+}
+
+#content {
+    opacity: 1;
+    animation: contentApear 3s ease-in-out;
+}
+
+@keyframes contentApear {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .clicked {
@@ -60,6 +102,7 @@ html::-webkit-scrollbar-thumb
     width: 80%;
     font-size: 3vw;
     border-radius: 100px;
+    color: rgb(127, 255, 127);
     filter: drop-shadow(16px 16px 20px white) invert(100%);
     top: 2%;
     transform: translate(-50%, 0%);
@@ -76,6 +119,7 @@ html::-webkit-scrollbar-thumb
 }
 
 .kafelek, .kafelekMobile {
+    height: 100%;
     display: inline-table;
     text-decoration: none;
     table-layout: fixed;
@@ -98,8 +142,26 @@ html::-webkit-scrollbar-thumb
 }
 
 .kafelek:hover, .kafelekMobile {
-    color: black;
+    color: purple;
     background-color: white;
+    filter: drop-shadow(16px 16px 20px black);
+}
+
+.kBig, .kSmall {
+    width: 90%; 
+    display: inline-table; 
+    transition: all 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.kBig:hover {
+    width: 100%; 
+}
+
+.kSmall {
+    width: 40%; 
+}
+.kSmall:hover {
+    width: 50%; 
 }
 
 .subText {
