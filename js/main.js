@@ -39,10 +39,11 @@ const loadProjects = async () => {
     for (let i = 0; i < data.projects.length; i++) {
         let d = document.createElement("div");
         d.className = c;
-        d.innerHTML += `<a class="kafelek" href="${data.projects[i].url}" target="_blank"><h1 style="font-size: 3vw;">${data.projects[i].name}</h1><video style="width:100%;" loop autoplay><source src="${data.projects[i].img}" type="video/mp4">Your browser does not support the video tag.</video><i class="subText">${data.projects[i].desc}</i>`
+        d.innerHTML += `<a class="kafelek" href="${data.projects[i].url}" target="_blank"><h1 style="animation: textAnimation 2s ease-in-out; font-size: 3vw;">${data.projects[i].name}</h1><video style="width:100%; animation: widthAnimation 2s ease-in-out;" loop autoplay><source src="${data.projects[i].img}" type="video/mp4">Your browser does not support the video tag.</video><br/><i class="subText" style="animation: text2Animation 2s ease-in-out;">${data.projects[i].desc}</i>`
         document.getElementById("projects").appendChild(d);
         ellList.push(d);
         if((i+1)%2 == 0) await delay(500);
+        else await delay(100);
     }
 }
 

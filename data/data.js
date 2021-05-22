@@ -1,19 +1,19 @@
 const data = {
     projects: [ {
             "name": 'Steam Storage Bot',
-            "desc": 'Simple steam bot that accept trade offers send by admin.',
+            "desc": 'Steam bot that accept trade offers send only by admins.',
             "url":  'https://github.com/Nyjako/Steam-storage-bot',
             "img":  'images/ssb.mp4'
         },
         {
             "name": 'StringEvaluation',
-            "desc": 'Simple C++ library for string evaluation.',
+            "desc": 'C++ single file library for string evaluation.',
             "url":  'https://github.com/Nyjako/StringEvaluation',
             "img":  'images/se.mp4'
         },
         {
             "name": 'Flappy Square',
-            "desc": 'Simple recreation of Flappy Bird using godot engine.',
+            "desc": 'Basic recreation of Flappy Bird using godot engine.',
             "url":  'https://github.com/Nyjako/Flappy-Square',
             "img":  'images/fs.mp4'
         },

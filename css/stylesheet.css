@@ -48,11 +48,160 @@ html::-webkit-scrollbar-thumb
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: Helvetica;
+    /* font-family: "Brush Script Std"; */
+    font-family: "Helvetica";
     animation: cardAnimation 3s ease-in-out;
     transition: all 0.5s;
     transition-timing-function: ease-in-out;
 }
+
+#content {
+    opacity: 1;
+    animation: contentApear 3s ease-in-out;
+}
+
+.clicked {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 80%;
+    font-size: 3vw;
+    border-radius: 100px;
+    color: rgb(127, 255, 127);
+    filter: drop-shadow(16px 16px 20px white) invert(100%);
+    top: 2%;
+    transform: translate(-50%, 0%);
+    padding-bottom: 45px;
+}
+
+.projects {
+    font-family: "Helvetica";
+    filter: invert(100%);
+    width: 100%;
+    max-height: 60000px;
+    display: block;
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.kafelek, .kafelekMobile {
+    max-height: 5px;
+    display: inline-table;
+    text-decoration: none;
+    table-layout: fixed;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: purple;
+    color: white;
+    margin: 10px;
+    border: 5px solid purple;
+
+    opacity: 1;
+    font-size: large;
+    transition: all 0.3s;
+    transition-timing-function: ease-in-out;
+
+    animation: kafelekApear 5s ease-in-out;
+}
+
+.kafelekMobile {
+    display: grid;
+}
+
+.kafelek:hover, .kafelekMobile {
+    /* color: purple; */
+    /* background-color: white; */
+    filter: drop-shadow(16px 16px 20px black);
+}
+
+.kBig, .kSmall {
+    z-index: 9;
+    width: 90%; 
+    display: inline-table; 
+    transition: all 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.kBig:hover {
+    z-index: 10;
+    transform: scale(1.2, 1.2);
+}
+
+.kSmall {
+    width: 40%; 
+}
+.kSmall:hover {
+    z-index: 10;
+    transform: scale(1.3, 1.3);
+}
+
+.subText {
+    font-size: 1.3vw;
+}
+
+@keyframes kafelekApear {
+    0% {
+        height: 0px;
+        opacity: 0;
+        font-size: 0mm;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        height: fit-content;
+        font-size: large;
+    }
+}
+
+@keyframes kafelekApear {
+    0% {
+        max-height: 0;
+    }
+    100% {
+        max-height: 600px;
+    }
+}
+
+@keyframes textAnimation {
+    0% {
+        font-size: 0;
+    }
+    100% {
+        font-size: 3vw;
+    }
+}
+
+@keyframes text2Animation {
+    0% {
+        font-size: 0;
+    }
+    100% {
+        font-size: 1.3vw;
+    }
+}
+
+@keyframes widthAnimation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes contentApear {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes cardAnimation {
     0% {
         padding: 0;
@@ -76,111 +225,5 @@ html::-webkit-scrollbar-thumb
 
     90% {
         max-height: 100%;
-    }
-}
-
-#content {
-    opacity: 1;
-    animation: contentApear 3s ease-in-out;
-}
-
-@keyframes contentApear {
-    0% {
-        opacity: 0;
-    }
-    70% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.clicked {
-    padding-left: 25px;
-    padding-right: 25px;
-    width: 80%;
-    font-size: 3vw;
-    border-radius: 100px;
-    color: rgb(127, 255, 127);
-    filter: drop-shadow(16px 16px 20px white) invert(100%);
-    top: 2%;
-    transform: translate(-50%, 0%);
-    padding-bottom: 45px;
-}
-
-.projects {
-    filter: invert(100%);
-    width: 100%;
-    height: fit-content;
-    display: block;
-    transition: all 0.5s;
-    transition-timing-function: ease-in-out;
-}
-
-.kafelek, .kafelekMobile {
-    height: 100%;
-    display: inline-table;
-    text-decoration: none;
-    table-layout: fixed;
-    text-align: center;
-    margin-bottom: 40px;
-    background-color: purple;
-    color: white;
-    margin: 10px;
-    border: 5px solid purple;
-    animation: kafelekApear 1.5s ease-in-out;
-
-    opacity: 1;
-    font-size: large;
-    transition: all 0.3s;
-    transition-timing-function: ease-in-out;
-}
-
-.kafelekMobile {
-    display: grid;
-}
-
-.kafelek:hover, .kafelekMobile {
-    color: purple;
-    background-color: white;
-    filter: drop-shadow(16px 16px 20px black);
-}
-
-.kBig, .kSmall {
-    width: 90%; 
-    display: inline-table; 
-    transition: all 0.3s;
-    transition-timing-function: ease-in-out;
-}
-.kBig:hover {
-    width: 100%; 
-}
-
-.kSmall {
-    width: 40%; 
-}
-.kSmall:hover {
-    width: 50%; 
-}
-
-.subText {
-    font-size: 1.3vw;
-}
-
-@keyframes kafelekApear {
-    0% {
-        height: 0px;
-        opacity: 0;
-        font-size: 0mm;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        height: fit-content;
-        font-size: large;
     }
 }
