@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 2.30.3 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="554" height="529">
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="277,152 277,213"/>
+		<polygon fill="#404040" stroke="none" points="277,227 290,202 263,202"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="277,352 277,413"/>
+		<polygon fill="#404040" stroke="none" points="277,427 290,402 263,402"/>
+		<g>
+			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 127,2 A 75,75 0 0,0 127,152 L 427,152 A 75,75 0 0,0 427,2 Z"/>
+			<text x="277" y="17" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="277" dy="50" unicode-bidi="embed">playerWon</tspan>
+				<tspan x="277" dy="50" unicode-bidi="embed">(String player)</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 52,427 A 50,50 0 0,0 52,527 L 502,527 A 50,50 0 0,0 502,427 Z"/>
+			<text x="277" y="442" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="277" dy="50" unicode-bidi="embed">Zwraca String Winner</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 102,227 L 102,352 L 452,352 L 452,227 Z"/>
+			<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="102,252 452,252"/>
+			<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="127,227 127,352"/>
+			<text x="289" y="267" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="289" dy="50" unicode-bidi="embed">String Winner</tspan>
+			</text>
+		</g>
+	</g>
+</svg>

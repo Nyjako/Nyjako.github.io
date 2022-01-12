@@ -1,1145 +1,1144 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created by Flowgorithm 2.30.3 (http://flowgorithm.org) -->
 
-<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="12375" height="17275">
-	<rect x="0" y="0" width="12375" height="17275" fill="#FFFFFF"/>
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="12225" height="17125">
 	<g>
-		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,250 6425,311"/>
-		<polygon fill="#404040" stroke="none" points="6425,325 6438,300 6411,300"/>
-		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,17000 6425,17061"/>
-		<polygon fill="#404040" stroke="none" points="6425,17075 6438,17050 6411,17050"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,175 6350,236"/>
+		<polygon fill="#404040" stroke="none" points="6350,250 6363,225 6336,225"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,16925 6350,16986"/>
+		<polygon fill="#404040" stroke="none" points="6350,17000 6363,16975 6336,16975"/>
 		<g>
-			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 6075,100 A 75,75 0 0,0 6075,250 L 6775,250 A 75,75 0 0,0 6775,100 Z"/>
-			<text x="6425" y="115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-				<tspan x="6425" dy="50" unicode-bidi="embed">findWin</tspan>
-				<tspan x="6425" dy="50" unicode-bidi="embed">(String Tablica board, String player)</tspan>
+			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 6000,25 A 75,75 0 0,0 6000,175 L 6700,175 A 75,75 0 0,0 6700,25 Z"/>
+			<text x="6350" y="40" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="6350" dy="50" unicode-bidi="embed">findWin</tspan>
+				<tspan x="6350" dy="50" unicode-bidi="embed">(String Tablica board, String player)</tspan>
 			</text>
 		</g>
 		<g>
-			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 6225,17075 A 50,50 0 0,0 6225,17175 L 6625,17175 A 50,50 0 0,0 6625,17075 Z"/>
-			<text x="6425" y="17090" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-				<tspan x="6425" dy="50" unicode-bidi="embed">Zwraca String point</tspan>
+			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 6150,17000 A 50,50 0 0,0 6150,17100 L 6550,17100 A 50,50 0 0,0 6550,17000 Z"/>
+			<text x="6350" y="17015" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="6350" dy="50" unicode-bidi="embed">Zwraca String point</tspan>
 			</text>
 		</g>
 		<g>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,450 6425,511"/>
-			<polygon fill="#404040" stroke="none" points="6425,525 6438,500 6411,500"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,650 6425,711"/>
-			<polygon fill="#404040" stroke="none" points="6425,725 6438,700 6411,700"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,850 6425,911"/>
-			<polygon fill="#404040" stroke="none" points="6425,925 6438,900 6411,900"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,1050 6425,1111"/>
-			<polygon fill="#404040" stroke="none" points="6425,1125 6438,1100 6411,1100"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,1225 6425,1286"/>
-			<polygon fill="#404040" stroke="none" points="6425,1300 6438,1275 6411,1275"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,1400 6425,1461"/>
-			<polygon fill="#404040" stroke="none" points="6425,1475 6438,1450 6411,1450"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,1600 6425,1661"/>
-			<polygon fill="#404040" stroke="none" points="6425,1675 6438,1650 6411,1650"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,1800 6425,1861"/>
-			<polygon fill="#404040" stroke="none" points="6425,1875 6438,1850 6411,1850"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,2000 6425,2061"/>
-			<polygon fill="#404040" stroke="none" points="6425,2075 6438,2050 6411,2050"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,2200 6425,2261"/>
-			<polygon fill="#404040" stroke="none" points="6425,2275 6438,2250 6411,2250"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,2375 6425,2436"/>
-			<polygon fill="#404040" stroke="none" points="6425,2450 6438,2425 6411,2425"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,2550 6425,2611"/>
-			<polygon fill="#404040" stroke="none" points="6425,2625 6438,2600 6411,2600"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,2725 6425,2786"/>
-			<polygon fill="#404040" stroke="none" points="6425,2800 6438,2775 6411,2775"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,2900 6425,2961"/>
-			<polygon fill="#404040" stroke="none" points="6425,2975 6438,2950 6411,2950"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,3100 6425,3161"/>
-			<polygon fill="#404040" stroke="none" points="6425,3175 6438,3150 6411,3150"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,3300 6425,3361"/>
-			<polygon fill="#404040" stroke="none" points="6425,3375 6438,3350 6411,3350"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,3500 6425,3561"/>
-			<polygon fill="#404040" stroke="none" points="6425,3575 6438,3550 6411,3550"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,3700 6425,3786"/>
-			<polygon fill="#404040" stroke="none" points="6425,3800 6438,3775 6411,3775"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,3900 6425,13936"/>
-			<polygon fill="#404040" stroke="none" points="6425,13950 6438,13925 6411,13925"/>
-			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6425,14075 6425,14136"/>
-			<polygon fill="#404040" stroke="none" points="6425,14150 6438,14125 6411,14125"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,375 6350,436"/>
+			<polygon fill="#404040" stroke="none" points="6350,450 6363,425 6336,425"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,575 6350,636"/>
+			<polygon fill="#404040" stroke="none" points="6350,650 6363,625 6336,625"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,775 6350,836"/>
+			<polygon fill="#404040" stroke="none" points="6350,850 6363,825 6336,825"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,975 6350,1036"/>
+			<polygon fill="#404040" stroke="none" points="6350,1050 6363,1025 6336,1025"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,1150 6350,1211"/>
+			<polygon fill="#404040" stroke="none" points="6350,1225 6363,1200 6336,1200"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,1325 6350,1386"/>
+			<polygon fill="#404040" stroke="none" points="6350,1400 6363,1375 6336,1375"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,1525 6350,1586"/>
+			<polygon fill="#404040" stroke="none" points="6350,1600 6363,1575 6336,1575"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,1725 6350,1786"/>
+			<polygon fill="#404040" stroke="none" points="6350,1800 6363,1775 6336,1775"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,1925 6350,1986"/>
+			<polygon fill="#404040" stroke="none" points="6350,2000 6363,1975 6336,1975"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,2125 6350,2186"/>
+			<polygon fill="#404040" stroke="none" points="6350,2200 6363,2175 6336,2175"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,2300 6350,2361"/>
+			<polygon fill="#404040" stroke="none" points="6350,2375 6363,2350 6336,2350"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,2475 6350,2536"/>
+			<polygon fill="#404040" stroke="none" points="6350,2550 6363,2525 6336,2525"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,2650 6350,2711"/>
+			<polygon fill="#404040" stroke="none" points="6350,2725 6363,2700 6336,2700"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,2825 6350,2886"/>
+			<polygon fill="#404040" stroke="none" points="6350,2900 6363,2875 6336,2875"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,3025 6350,3086"/>
+			<polygon fill="#404040" stroke="none" points="6350,3100 6363,3075 6336,3075"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,3225 6350,3286"/>
+			<polygon fill="#404040" stroke="none" points="6350,3300 6363,3275 6336,3275"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,3425 6350,3486"/>
+			<polygon fill="#404040" stroke="none" points="6350,3500 6363,3475 6336,3475"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,3625 6350,3711"/>
+			<polygon fill="#404040" stroke="none" points="6350,3725 6363,3700 6336,3700"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,3825 6350,13861"/>
+			<polygon fill="#404040" stroke="none" points="6350,13875 6363,13850 6336,13850"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6350,14000 6350,14061"/>
+			<polygon fill="#404040" stroke="none" points="6350,14075 6363,14050 6336,14050"/>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6275,325 L 6275,450 L 6575,450 L 6575,325 Z"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6275,350 6575,350"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6300,325 6300,450"/>
-				<text x="6437" y="365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6437" dy="50" unicode-bidi="embed">Integer c1</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6200,250 L 6200,375 L 6500,375 L 6500,250 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6200,275 6500,275"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6225,250 6225,375"/>
+				<text x="6362" y="290" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6362" dy="50" unicode-bidi="embed">Integer c1</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6275,525 L 6275,650 L 6575,650 L 6575,525 Z"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6275,550 6575,550"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6300,525 6300,650"/>
-				<text x="6437" y="565" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6437" dy="50" unicode-bidi="embed">Integer c2</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6200,450 L 6200,575 L 6500,575 L 6500,450 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6200,475 6500,475"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6225,450 6225,575"/>
+				<text x="6362" y="490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6362" dy="50" unicode-bidi="embed">Integer c2</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6275,725 L 6275,850 L 6575,850 L 6575,725 Z"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6275,750 6575,750"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6300,725 6300,850"/>
-				<text x="6437" y="765" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6437" dy="50" unicode-bidi="embed">Integer c3</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6200,650 L 6200,775 L 6500,775 L 6500,650 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6200,675 6500,675"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6225,650 6225,775"/>
+				<text x="6362" y="690" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6362" dy="50" unicode-bidi="embed">Integer c3</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6275,925 L 6275,1050 L 6575,1050 L 6575,925 Z"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6275,950 6575,950"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6300,925 6300,1050"/>
-				<text x="6437" y="965" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6437" dy="50" unicode-bidi="embed">Integer c4</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6200,850 L 6200,975 L 6500,975 L 6500,850 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6200,875 6500,875"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6225,850 6225,975"/>
+				<text x="6362" y="890" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6362" dy="50" unicode-bidi="embed">Integer c4</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6275,1125 L 6275,1225 L 6575,1225 L 6575,1125 Z"/>
-				<text x="6425" y="1140" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6425" dy="50" unicode-bidi="embed">c1 = 0</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6200,1050 L 6200,1150 L 6500,1150 L 6500,1050 Z"/>
+				<text x="6350" y="1065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6350" dy="50" unicode-bidi="embed">c1 = 0</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6275,1300 L 6275,1400 L 6575,1400 L 6575,1300 Z"/>
-				<text x="6425" y="1315" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6425" dy="50" unicode-bidi="embed">c2 = 0</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6200,1225 L 6200,1325 L 6500,1325 L 6500,1225 Z"/>
+				<text x="6350" y="1240" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6350" dy="50" unicode-bidi="embed">c2 = 0</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6250,1475 L 6250,1600 L 6600,1600 L 6600,1475 Z"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6250,1500 6600,1500"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6275,1475 6275,1600"/>
-				<text x="6437" y="1515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6437" dy="50" unicode-bidi="embed">Boolean bc1</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6175,1400 L 6175,1525 L 6525,1525 L 6525,1400 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6175,1425 6525,1425"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6200,1400 6200,1525"/>
+				<text x="6362" y="1440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6362" dy="50" unicode-bidi="embed">Boolean bc1</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6250,1675 L 6250,1800 L 6600,1800 L 6600,1675 Z"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6250,1700 6600,1700"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6275,1675 6275,1800"/>
-				<text x="6437" y="1715" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6437" dy="50" unicode-bidi="embed">Boolean bc2</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6175,1600 L 6175,1725 L 6525,1725 L 6525,1600 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6175,1625 6525,1625"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6200,1600 6200,1725"/>
+				<text x="6362" y="1640" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6362" dy="50" unicode-bidi="embed">Boolean bc2</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6250,1875 L 6250,2000 L 6600,2000 L 6600,1875 Z"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6250,1900 6600,1900"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6275,1875 6275,2000"/>
-				<text x="6437" y="1915" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6437" dy="50" unicode-bidi="embed">Boolean bc3</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6175,1800 L 6175,1925 L 6525,1925 L 6525,1800 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6175,1825 6525,1825"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6200,1800 6200,1925"/>
+				<text x="6362" y="1840" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6362" dy="50" unicode-bidi="embed">Boolean bc3</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6250,2075 L 6250,2200 L 6600,2200 L 6600,2075 Z"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6250,2100 6600,2100"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6275,2075 6275,2200"/>
-				<text x="6437" y="2115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6437" dy="50" unicode-bidi="embed">Boolean bc4</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6175,2000 L 6175,2125 L 6525,2125 L 6525,2000 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6175,2025 6525,2025"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6200,2000 6200,2125"/>
+				<text x="6362" y="2040" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6362" dy="50" unicode-bidi="embed">Boolean bc4</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6275,2275 L 6275,2375 L 6575,2375 L 6575,2275 Z"/>
-				<text x="6425" y="2290" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6425" dy="50" unicode-bidi="embed">bc1 = False</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6200,2200 L 6200,2300 L 6500,2300 L 6500,2200 Z"/>
+				<text x="6350" y="2215" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6350" dy="50" unicode-bidi="embed">bc1 = False</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6275,2450 L 6275,2550 L 6575,2550 L 6575,2450 Z"/>
-				<text x="6425" y="2465" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6425" dy="50" unicode-bidi="embed">bc2 = False</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6200,2375 L 6200,2475 L 6500,2475 L 6500,2375 Z"/>
+				<text x="6350" y="2390" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6350" dy="50" unicode-bidi="embed">bc2 = False</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6275,2625 L 6275,2725 L 6575,2725 L 6575,2625 Z"/>
-				<text x="6425" y="2640" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6425" dy="50" unicode-bidi="embed">bc3 = False</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6200,2550 L 6200,2650 L 6500,2650 L 6500,2550 Z"/>
+				<text x="6350" y="2565" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6350" dy="50" unicode-bidi="embed">bc3 = False</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6275,2800 L 6275,2900 L 6575,2900 L 6575,2800 Z"/>
-				<text x="6425" y="2815" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6425" dy="50" unicode-bidi="embed">bc4 = False</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6200,2725 L 6200,2825 L 6500,2825 L 6500,2725 Z"/>
+				<text x="6350" y="2740" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6350" dy="50" unicode-bidi="embed">bc4 = False</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6150,2975 L 6150,3100 L 6700,3100 L 6700,2975 Z"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6150,3000 6700,3000"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6175,2975 6175,3100"/>
-				<text x="6437" y="3015" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6437" dy="50" unicode-bidi="embed">Integer Tablica point1[3]</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6075,2900 L 6075,3025 L 6625,3025 L 6625,2900 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6075,2925 6625,2925"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6100,2900 6100,3025"/>
+				<text x="6362" y="2940" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6362" dy="50" unicode-bidi="embed">Integer Tablica point1[3]</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6150,3175 L 6150,3300 L 6700,3300 L 6700,3175 Z"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6150,3200 6700,3200"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6175,3175 6175,3300"/>
-				<text x="6437" y="3215" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6437" dy="50" unicode-bidi="embed">Integer Tablica point2[3]</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6075,3100 L 6075,3225 L 6625,3225 L 6625,3100 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6075,3125 6625,3125"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6100,3100 6100,3225"/>
+				<text x="6362" y="3140" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6362" dy="50" unicode-bidi="embed">Integer Tablica point2[3]</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6150,3375 L 6150,3500 L 6700,3500 L 6700,3375 Z"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6150,3400 6700,3400"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6175,3375 6175,3500"/>
-				<text x="6437" y="3415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6437" dy="50" unicode-bidi="embed">Integer Tablica point3[3]</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6075,3300 L 6075,3425 L 6625,3425 L 6625,3300 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6075,3325 6625,3325"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6100,3300 6100,3425"/>
+				<text x="6362" y="3340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6362" dy="50" unicode-bidi="embed">Integer Tablica point3[3]</tspan>
 				</text>
 			</g>
 			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6150,3575 L 6150,3700 L 6700,3700 L 6700,3575 Z"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6150,3600 6700,3600"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6175,3575 6175,3700"/>
-				<text x="6437" y="3615" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6437" dy="50" unicode-bidi="embed">Integer Tablica point4[3]</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6075,3500 L 6075,3625 L 6625,3625 L 6625,3500 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6075,3525 6625,3525"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6100,3500 6100,3625"/>
+				<text x="6362" y="3540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6362" dy="50" unicode-bidi="embed">Integer Tablica point4[3]</tspan>
 				</text>
 			</g>
 			<g>
-				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6700,3850 9250,3850 9250,3936"/>
-				<polygon fill="#404040" stroke="none" points="9250,3950 9263,3925 9236,3925"/>
-				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9250,13800 9250,13875 6475,13875 6475,3913"/>
-				<polygon fill="#404040" stroke="none" points="6475,3900 6461,3924 6488,3924"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6625,3775 9175,3775 9175,3861"/>
+				<polygon fill="#404040" stroke="none" points="9175,3875 9188,3850 9161,3850"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9175,13725 9175,13800 6400,13800 6400,3838"/>
+				<polygon fill="#404040" stroke="none" points="6400,3825 6386,3849 6413,3849"/>
 				<g>
-					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9250,4050 9250,4111"/>
-					<polygon fill="#404040" stroke="none" points="9250,4125 9263,4100 9236,4100"/>
-					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9250,4225 9250,4311"/>
-					<polygon fill="#404040" stroke="none" points="9250,4325 9263,4300 9236,4300"/>
-					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9250,4425 9250,9286"/>
-					<polygon fill="#404040" stroke="none" points="9250,9300 9263,9275 9236,9275"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9175,3975 9175,4036"/>
+					<polygon fill="#404040" stroke="none" points="9175,4050 9188,4025 9161,4025"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9175,4150 9175,4236"/>
+					<polygon fill="#404040" stroke="none" points="9175,4250 9188,4225 9161,4225"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9175,4350 9175,9211"/>
+					<polygon fill="#404040" stroke="none" points="9175,9225 9188,9200 9161,9200"/>
 					<g>
-						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 9050,3950 L 9050,4050 L 9450,4050 L 9450,3950 Z"/>
-						<text x="9250" y="3965" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="9250" dy="50" unicode-bidi="embed">point1 = point[3]</tspan>
+						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 8975,3875 L 8975,3975 L 9375,3975 L 9375,3875 Z"/>
+						<text x="9175" y="3890" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="9175" dy="50" unicode-bidi="embed">point1 = point[3]</tspan>
 						</text>
 					</g>
 					<g>
-						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 9050,4125 L 9050,4225 L 9450,4225 L 9450,4125 Z"/>
-						<text x="9250" y="4140" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="9250" dy="50" unicode-bidi="embed">point2 = point[3]</tspan>
+						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 8975,4050 L 8975,4150 L 9375,4150 L 9375,4050 Z"/>
+						<text x="9175" y="4065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="9175" dy="50" unicode-bidi="embed">point2 = point[3]</tspan>
 						</text>
 					</g>
 					<g>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9525,4375 9950,4375 9950,4461"/>
-						<polygon fill="#404040" stroke="none" points="9950,4475 9963,4450 9936,4450"/>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9950,9150 9950,9225 9300,9225 9300,4438"/>
-						<polygon fill="#404040" stroke="none" points="9300,4425 9286,4449 9313,4449"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9450,4300 9875,4300 9875,4386"/>
+						<polygon fill="#404040" stroke="none" points="9875,4400 9888,4375 9861,4375"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9875,9075 9875,9150 9225,9150 9225,4363"/>
+						<polygon fill="#404040" stroke="none" points="9225,4350 9211,4374 9238,4374"/>
 						<g>
-							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9950,5150 9950,5211"/>
-							<polygon fill="#404040" stroke="none" points="9950,5225 9963,5200 9936,5200"/>
-							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9950,7150 9950,7211"/>
-							<polygon fill="#404040" stroke="none" points="9950,7225 9963,7200 9936,7200"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9875,5075 9875,5136"/>
+							<polygon fill="#404040" stroke="none" points="9875,5150 9888,5125 9861,5125"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9875,7075 9875,7136"/>
+							<polygon fill="#404040" stroke="none" points="9875,7150 9888,7125 9861,7125"/>
 							<g>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10325,4675 10525,4675 10525,4911"/>
-								<polygon fill="#404040" stroke="none" points="10525,4925 10538,4900 10511,4900"/>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10525,5025 10525,5125 9988,5125"/>
-								<polygon fill="#404040" stroke="none" points="9975,5125 9999,5138 9999,5111"/>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9575,4675 9400,4675 9400,5125 9911,5125"/>
-								<polygon fill="#404040" stroke="none" points="9925,5125 9900,5111 9900,5138"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10250,4600 10450,4600 10450,4836"/>
+								<polygon fill="#404040" stroke="none" points="10450,4850 10463,4825 10436,4825"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10450,4950 10450,5050 9913,5050"/>
+								<polygon fill="#404040" stroke="none" points="9900,5050 9924,5063 9924,5036"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9500,4600 9325,4600 9325,5050 9836,5050"/>
+								<polygon fill="#404040" stroke="none" points="9850,5050 9825,5036 9825,5063"/>
 								<g>
-									<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 9950,4475 L 9550,4675 L 9950,4875 L 10350,4675 Z"/>
-									<text x="9950" y="4615" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="9950" dy="50" unicode-bidi="embed">c1 == BoardSize - 1 || c2 ==</tspan>
-										<tspan x="9950" dy="50" unicode-bidi="embed"> BoardSize - 1</tspan>
+									<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 9875,4400 L 9475,4600 L 9875,4800 L 10275,4600 Z"/>
+									<text x="9875" y="4540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="9875" dy="50" unicode-bidi="embed">c1 == BoardSize - 1 || c2 ==</tspan>
+										<tspan x="9875" dy="50" unicode-bidi="embed"> BoardSize - 1</tspan>
 									</text>
 								</g>
 								<g>
-									<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 10375,4925 L 10375,5025 L 10675,5025 L 10675,4925 Z"/>
-									<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="10400,4925 10400,5025"/>
-									<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="10650,4925 10650,5025"/>
-									<text x="10525" y="4940" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="10525" dy="50" unicode-bidi="embed">Break</tspan>
+									<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 10300,4850 L 10300,4950 L 10600,4950 L 10600,4850 Z"/>
+									<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="10325,4850 10325,4950"/>
+									<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="10575,4850 10575,4950"/>
+									<text x="10450" y="4865" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="10450" dy="50" unicode-bidi="embed">Break</tspan>
 									</text>
 								</g>
 								<g>
 								</g>
-								<ellipse cx="9950" cy="5125" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-								<text x="10450" y="4590" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="10450" dy="50" unicode-bidi="embed">Prawda</tspan>
+								<ellipse cx="9875" cy="5050" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+								<text x="10375" y="4515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="10375" dy="50" unicode-bidi="embed">Prawda</tspan>
 								</text>
-								<text x="9462" y="4590" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="9462" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+								<text x="9387" y="4515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="9387" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 								</text>
 							</g>
 							<g>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10075,5300 11550,5300 11550,5411"/>
-								<polygon fill="#404040" stroke="none" points="11550,5425 11563,5400 11536,5400"/>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11550,7025 11550,7125 9988,7125"/>
-								<polygon fill="#404040" stroke="none" points="9975,7125 9999,7138 9999,7111"/>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9825,5300 9650,5300 9650,7125 9911,7125"/>
-								<polygon fill="#404040" stroke="none" points="9925,7125 9900,7111 9900,7138"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10000,5225 11475,5225 11475,5336"/>
+								<polygon fill="#404040" stroke="none" points="11475,5350 11488,5325 11461,5325"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11475,6950 11475,7050 9913,7050"/>
+								<polygon fill="#404040" stroke="none" points="9900,7050 9924,7063 9924,7036"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9750,5225 9575,5225 9575,7050 9836,7050"/>
+								<polygon fill="#404040" stroke="none" points="9850,7050 9825,7036 9825,7063"/>
 								<g>
-									<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 9950,5225 L 9800,5300 L 9950,5375 L 10100,5300 Z"/>
-									<text x="9950" y="5265" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="9950" dy="50" unicode-bidi="embed">!bc1</tspan>
+									<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 9875,5150 L 9725,5225 L 9875,5300 L 10025,5225 Z"/>
+									<text x="9875" y="5190" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="9875" dy="50" unicode-bidi="embed">!bc1</tspan>
 									</text>
 								</g>
 								<g>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11925,5625 12125,5625 12125,5861"/>
-									<polygon fill="#404040" stroke="none" points="12125,5875 12138,5850 12111,5850"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="12125,5975 12125,7000 11588,7000"/>
-									<polygon fill="#404040" stroke="none" points="11575,7000 11599,7013 11599,6986"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11175,5625 10725,5625 10725,5861"/>
-									<polygon fill="#404040" stroke="none" points="10725,5875 10738,5850 10711,5850"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10725,6900 10725,7000 11511,7000"/>
-									<polygon fill="#404040" stroke="none" points="11525,7000 11500,6986 11500,7013"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11850,5550 12050,5550 12050,5786"/>
+									<polygon fill="#404040" stroke="none" points="12050,5800 12063,5775 12036,5775"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="12050,5900 12050,6925 11513,6925"/>
+									<polygon fill="#404040" stroke="none" points="11500,6925 11524,6938 11524,6911"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11100,5550 10650,5550 10650,5786"/>
+									<polygon fill="#404040" stroke="none" points="10650,5800 10663,5775 10636,5775"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10650,6825 10650,6925 11436,6925"/>
+									<polygon fill="#404040" stroke="none" points="11450,6925 11425,6911 11425,6938"/>
 									<g>
-										<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 11550,5425 L 11150,5625 L 11550,5825 L 11950,5625 Z"/>
-										<text x="11550" y="5565" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="11550" dy="50" unicode-bidi="embed">board[i * BoardSize + j] ==</tspan>
-											<tspan x="11550" dy="50" unicode-bidi="embed"> player</tspan>
+										<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 11475,5350 L 11075,5550 L 11475,5750 L 11875,5550 Z"/>
+										<text x="11475" y="5490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="11475" dy="50" unicode-bidi="embed">board[i * BoardSize + j] ==</tspan>
+											<tspan x="11475" dy="50" unicode-bidi="embed"> player</tspan>
 										</text>
 									</g>
 									<g>
-										<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 11975,5875 L 11975,5975 L 12275,5975 L 12275,5875 Z"/>
-										<text x="12125" y="5890" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="12125" dy="50" unicode-bidi="embed">c1 = c1 + 1</tspan>
+										<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 11900,5800 L 11900,5900 L 12200,5900 L 12200,5800 Z"/>
+										<text x="12050" y="5815" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="12050" dy="50" unicode-bidi="embed">c1 = c1 + 1</tspan>
 										</text>
 									</g>
 									<g>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11100,6075 11300,6075 11300,6311"/>
-										<polygon fill="#404040" stroke="none" points="11300,6325 11313,6300 11286,6300"/>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11300,6600 11300,6875 10763,6875"/>
-										<polygon fill="#404040" stroke="none" points="10750,6875 10774,6888 10774,6861"/>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10350,6075 10175,6075 10175,6311"/>
-										<polygon fill="#404040" stroke="none" points="10175,6325 10188,6300 10161,6300"/>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10175,6775 10175,6875 10686,6875"/>
-										<polygon fill="#404040" stroke="none" points="10700,6875 10675,6861 10675,6888"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11025,6000 11225,6000 11225,6236"/>
+										<polygon fill="#404040" stroke="none" points="11225,6250 11238,6225 11211,6225"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11225,6525 11225,6800 10688,6800"/>
+										<polygon fill="#404040" stroke="none" points="10675,6800 10699,6813 10699,6786"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10275,6000 10100,6000 10100,6236"/>
+										<polygon fill="#404040" stroke="none" points="10100,6250 10113,6225 10086,6225"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10100,6700 10100,6800 10611,6800"/>
+										<polygon fill="#404040" stroke="none" points="10625,6800 10600,6786 10600,6813"/>
 										<g>
-											<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 10725,5875 L 10325,6075 L 10725,6275 L 11125,6075 Z"/>
-											<text x="10725" y="6015" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-												<tspan x="10725" dy="50" unicode-bidi="embed">board[i * BoardSize + j] ==</tspan>
-												<tspan x="10725" dy="50" unicode-bidi="embed"> EMPTY &amp;&amp; !bc1</tspan>
+											<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 10650,5800 L 10250,6000 L 10650,6200 L 11050,6000 Z"/>
+											<text x="10650" y="5940" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+												<tspan x="10650" dy="50" unicode-bidi="embed">board[i * BoardSize + j] ==</tspan>
+												<tspan x="10650" dy="50" unicode-bidi="embed"> EMPTY &amp;&amp; !bc1</tspan>
 											</text>
 										</g>
 										<g>
-											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11300,6425 11300,6486"/>
-											<polygon fill="#404040" stroke="none" points="11300,6500 11313,6475 11286,6475"/>
+											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11225,6350 11225,6411"/>
+											<polygon fill="#404040" stroke="none" points="11225,6425 11238,6400 11211,6400"/>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 11150,6325 L 11150,6425 L 11450,6425 L 11450,6325 Z"/>
-												<text x="11300" y="6340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="11300" dy="50" unicode-bidi="embed">bc1 = True</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 11075,6250 L 11075,6350 L 11375,6350 L 11375,6250 Z"/>
+												<text x="11225" y="6265" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="11225" dy="50" unicode-bidi="embed">bc1 = True</tspan>
 												</text>
 											</g>
 											<g>
-												<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 11100,6500 L 11100,6600 L 11500,6600 L 11500,6500 Z"/>
-												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="11125,6500 11125,6600"/>
-												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="11475,6500 11475,6600"/>
-												<text x="11300" y="6515" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="11300" dy="50" unicode-bidi="embed">point1[j].set(j,i)</tspan>
+												<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 11025,6425 L 11025,6525 L 11425,6525 L 11425,6425 Z"/>
+												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="11050,6425 11050,6525"/>
+												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="11400,6425 11400,6525"/>
+												<text x="11225" y="6440" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="11225" dy="50" unicode-bidi="embed">point1[j].set(j,i)</tspan>
 												</text>
 											</g>
 										</g>
 										<g>
-											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10175,6425 10175,6486"/>
-											<polygon fill="#404040" stroke="none" points="10175,6500 10188,6475 10161,6475"/>
-											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10175,6600 10175,6661"/>
-											<polygon fill="#404040" stroke="none" points="10175,6675 10188,6650 10161,6650"/>
+											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10100,6350 10100,6411"/>
+											<polygon fill="#404040" stroke="none" points="10100,6425 10113,6400 10086,6400"/>
+											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10100,6525 10100,6586"/>
+											<polygon fill="#404040" stroke="none" points="10100,6600 10113,6575 10086,6575"/>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 10025,6325 L 10025,6425 L 10325,6425 L 10325,6325 Z"/>
-												<text x="10175" y="6340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="10175" dy="50" unicode-bidi="embed">bc1 = True</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 9950,6250 L 9950,6350 L 10250,6350 L 10250,6250 Z"/>
+												<text x="10100" y="6265" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="10100" dy="50" unicode-bidi="embed">bc1 = True</tspan>
 												</text>
 											</g>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 10000,6500 L 10000,6600 L 10350,6600 L 10350,6500 Z"/>
-												<text x="10175" y="6515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="10175" dy="50" unicode-bidi="embed">point1 = NULL</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 9925,6425 L 9925,6525 L 10275,6525 L 10275,6425 Z"/>
+												<text x="10100" y="6440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="10100" dy="50" unicode-bidi="embed">point1 = NULL</tspan>
 												</text>
 											</g>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 10025,6675 L 10025,6775 L 10325,6775 L 10325,6675 Z"/>
-												<text x="10175" y="6690" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="10175" dy="50" unicode-bidi="embed">c1 = -1</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 9950,6600 L 9950,6700 L 10250,6700 L 10250,6600 Z"/>
+												<text x="10100" y="6615" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="10100" dy="50" unicode-bidi="embed">c1 = -1</tspan>
 												</text>
 											</g>
 										</g>
-										<ellipse cx="10725" cy="6875" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-										<text x="11225" y="5990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="11225" dy="50" unicode-bidi="embed">Prawda</tspan>
+										<ellipse cx="10650" cy="6800" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+										<text x="11150" y="5915" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="11150" dy="50" unicode-bidi="embed">Prawda</tspan>
 										</text>
-										<text x="10237" y="5990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="10237" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+										<text x="10162" y="5915" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="10162" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 										</text>
 									</g>
-									<ellipse cx="11550" cy="7000" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-									<text x="12050" y="5540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="12050" dy="50" unicode-bidi="embed">Prawda</tspan>
+									<ellipse cx="11475" cy="6925" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+									<text x="11975" y="5465" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="11975" dy="50" unicode-bidi="embed">Prawda</tspan>
 									</text>
-									<text x="11062" y="5540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="11062" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+									<text x="10987" y="5465" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="10987" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 									</text>
 								</g>
 								<g>
 								</g>
-								<ellipse cx="9950" cy="7125" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-								<text x="10200" y="5215" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="10200" dy="50" unicode-bidi="embed">Prawda</tspan>
+								<ellipse cx="9875" cy="7050" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+								<text x="10125" y="5140" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="10125" dy="50" unicode-bidi="embed">Prawda</tspan>
 								</text>
-								<text x="9712" y="5215" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="9712" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+								<text x="9637" y="5140" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="9637" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 								</text>
 							</g>
 							<g>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10075,7300 11550,7300 11550,7411"/>
-								<polygon fill="#404040" stroke="none" points="11550,7425 11563,7400 11536,7400"/>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11550,9025 11550,9125 9988,9125"/>
-								<polygon fill="#404040" stroke="none" points="9975,9125 9999,9138 9999,9111"/>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9825,7300 9650,7300 9650,9125 9911,9125"/>
-								<polygon fill="#404040" stroke="none" points="9925,9125 9900,9111 9900,9138"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10000,7225 11475,7225 11475,7336"/>
+								<polygon fill="#404040" stroke="none" points="11475,7350 11488,7325 11461,7325"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11475,8950 11475,9050 9913,9050"/>
+								<polygon fill="#404040" stroke="none" points="9900,9050 9924,9063 9924,9036"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9750,7225 9575,7225 9575,9050 9836,9050"/>
+								<polygon fill="#404040" stroke="none" points="9850,9050 9825,9036 9825,9063"/>
 								<g>
-									<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 9950,7225 L 9800,7300 L 9950,7375 L 10100,7300 Z"/>
-									<text x="9950" y="7265" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="9950" dy="50" unicode-bidi="embed">!bc2</tspan>
+									<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 9875,7150 L 9725,7225 L 9875,7300 L 10025,7225 Z"/>
+									<text x="9875" y="7190" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="9875" dy="50" unicode-bidi="embed">!bc2</tspan>
 									</text>
 								</g>
 								<g>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11925,7625 12125,7625 12125,7861"/>
-									<polygon fill="#404040" stroke="none" points="12125,7875 12138,7850 12111,7850"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="12125,7975 12125,9000 11588,9000"/>
-									<polygon fill="#404040" stroke="none" points="11575,9000 11599,9013 11599,8986"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11175,7625 10725,7625 10725,7861"/>
-									<polygon fill="#404040" stroke="none" points="10725,7875 10738,7850 10711,7850"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10725,8900 10725,9000 11511,9000"/>
-									<polygon fill="#404040" stroke="none" points="11525,9000 11500,8986 11500,9013"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11850,7550 12050,7550 12050,7786"/>
+									<polygon fill="#404040" stroke="none" points="12050,7800 12063,7775 12036,7775"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="12050,7900 12050,8925 11513,8925"/>
+									<polygon fill="#404040" stroke="none" points="11500,8925 11524,8938 11524,8911"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11100,7550 10650,7550 10650,7786"/>
+									<polygon fill="#404040" stroke="none" points="10650,7800 10663,7775 10636,7775"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10650,8825 10650,8925 11436,8925"/>
+									<polygon fill="#404040" stroke="none" points="11450,8925 11425,8911 11425,8938"/>
 									<g>
-										<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 11550,7425 L 11150,7625 L 11550,7825 L 11950,7625 Z"/>
-										<text x="11550" y="7565" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="11550" dy="50" unicode-bidi="embed">board[i * BoardSize + j] ==</tspan>
-											<tspan x="11550" dy="50" unicode-bidi="embed"> player</tspan>
+										<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 11475,7350 L 11075,7550 L 11475,7750 L 11875,7550 Z"/>
+										<text x="11475" y="7490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="11475" dy="50" unicode-bidi="embed">board[i * BoardSize + j] ==</tspan>
+											<tspan x="11475" dy="50" unicode-bidi="embed"> player</tspan>
 										</text>
 									</g>
 									<g>
-										<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 11975,7875 L 11975,7975 L 12275,7975 L 12275,7875 Z"/>
-										<text x="12125" y="7890" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="12125" dy="50" unicode-bidi="embed">c2 = c2 + 1</tspan>
+										<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 11900,7800 L 11900,7900 L 12200,7900 L 12200,7800 Z"/>
+										<text x="12050" y="7815" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="12050" dy="50" unicode-bidi="embed">c2 = c2 + 1</tspan>
 										</text>
 									</g>
 									<g>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11100,8075 11300,8075 11300,8311"/>
-										<polygon fill="#404040" stroke="none" points="11300,8325 11313,8300 11286,8300"/>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11300,8600 11300,8875 10763,8875"/>
-										<polygon fill="#404040" stroke="none" points="10750,8875 10774,8888 10774,8861"/>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10350,8075 10175,8075 10175,8311"/>
-										<polygon fill="#404040" stroke="none" points="10175,8325 10188,8300 10161,8300"/>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10175,8775 10175,8875 10686,8875"/>
-										<polygon fill="#404040" stroke="none" points="10700,8875 10675,8861 10675,8888"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11025,8000 11225,8000 11225,8236"/>
+										<polygon fill="#404040" stroke="none" points="11225,8250 11238,8225 11211,8225"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11225,8525 11225,8800 10688,8800"/>
+										<polygon fill="#404040" stroke="none" points="10675,8800 10699,8813 10699,8786"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10275,8000 10100,8000 10100,8236"/>
+										<polygon fill="#404040" stroke="none" points="10100,8250 10113,8225 10086,8225"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10100,8700 10100,8800 10611,8800"/>
+										<polygon fill="#404040" stroke="none" points="10625,8800 10600,8786 10600,8813"/>
 										<g>
-											<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 10725,7875 L 10325,8075 L 10725,8275 L 11125,8075 Z"/>
-											<text x="10725" y="8015" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-												<tspan x="10725" dy="50" unicode-bidi="embed">board[i * BoardSize + j] ==</tspan>
-												<tspan x="10725" dy="50" unicode-bidi="embed"> EMPTY &amp;&amp; !bc1</tspan>
+											<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 10650,7800 L 10250,8000 L 10650,8200 L 11050,8000 Z"/>
+											<text x="10650" y="7940" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+												<tspan x="10650" dy="50" unicode-bidi="embed">board[i * BoardSize + j] ==</tspan>
+												<tspan x="10650" dy="50" unicode-bidi="embed"> EMPTY &amp;&amp; !bc1</tspan>
 											</text>
 										</g>
 										<g>
-											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11300,8425 11300,8486"/>
-											<polygon fill="#404040" stroke="none" points="11300,8500 11313,8475 11286,8475"/>
+											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="11225,8350 11225,8411"/>
+											<polygon fill="#404040" stroke="none" points="11225,8425 11238,8400 11211,8400"/>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 11150,8325 L 11150,8425 L 11450,8425 L 11450,8325 Z"/>
-												<text x="11300" y="8340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="11300" dy="50" unicode-bidi="embed">bc2 = True</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 11075,8250 L 11075,8350 L 11375,8350 L 11375,8250 Z"/>
+												<text x="11225" y="8265" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="11225" dy="50" unicode-bidi="embed">bc2 = True</tspan>
 												</text>
 											</g>
 											<g>
-												<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 11100,8500 L 11100,8600 L 11500,8600 L 11500,8500 Z"/>
-												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="11125,8500 11125,8600"/>
-												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="11475,8500 11475,8600"/>
-												<text x="11300" y="8515" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="11300" dy="50" unicode-bidi="embed">point2[j].set(j,i)</tspan>
+												<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 11025,8425 L 11025,8525 L 11425,8525 L 11425,8425 Z"/>
+												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="11050,8425 11050,8525"/>
+												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="11400,8425 11400,8525"/>
+												<text x="11225" y="8440" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="11225" dy="50" unicode-bidi="embed">point2[j].set(j,i)</tspan>
 												</text>
 											</g>
 										</g>
 										<g>
-											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10175,8425 10175,8486"/>
-											<polygon fill="#404040" stroke="none" points="10175,8500 10188,8475 10161,8475"/>
-											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10175,8600 10175,8661"/>
-											<polygon fill="#404040" stroke="none" points="10175,8675 10188,8650 10161,8650"/>
+											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10100,8350 10100,8411"/>
+											<polygon fill="#404040" stroke="none" points="10100,8425 10113,8400 10086,8400"/>
+											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="10100,8525 10100,8586"/>
+											<polygon fill="#404040" stroke="none" points="10100,8600 10113,8575 10086,8575"/>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 10025,8325 L 10025,8425 L 10325,8425 L 10325,8325 Z"/>
-												<text x="10175" y="8340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="10175" dy="50" unicode-bidi="embed">bc2 = True</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 9950,8250 L 9950,8350 L 10250,8350 L 10250,8250 Z"/>
+												<text x="10100" y="8265" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="10100" dy="50" unicode-bidi="embed">bc2 = True</tspan>
 												</text>
 											</g>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 10000,8500 L 10000,8600 L 10350,8600 L 10350,8500 Z"/>
-												<text x="10175" y="8515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="10175" dy="50" unicode-bidi="embed">point2 = NULL</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 9925,8425 L 9925,8525 L 10275,8525 L 10275,8425 Z"/>
+												<text x="10100" y="8440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="10100" dy="50" unicode-bidi="embed">point2 = NULL</tspan>
 												</text>
 											</g>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 10025,8675 L 10025,8775 L 10325,8775 L 10325,8675 Z"/>
-												<text x="10175" y="8690" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="10175" dy="50" unicode-bidi="embed">c2 = -1</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 9950,8600 L 9950,8700 L 10250,8700 L 10250,8600 Z"/>
+												<text x="10100" y="8615" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="10100" dy="50" unicode-bidi="embed">c2 = -1</tspan>
 												</text>
 											</g>
 										</g>
-										<ellipse cx="10725" cy="8875" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-										<text x="11225" y="7990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="11225" dy="50" unicode-bidi="embed">Prawda</tspan>
+										<ellipse cx="10650" cy="8800" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+										<text x="11150" y="7915" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="11150" dy="50" unicode-bidi="embed">Prawda</tspan>
 										</text>
-										<text x="10237" y="7990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="10237" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+										<text x="10162" y="7915" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="10162" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 										</text>
 									</g>
-									<ellipse cx="11550" cy="9000" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-									<text x="12050" y="7540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="12050" dy="50" unicode-bidi="embed">Prawda</tspan>
+									<ellipse cx="11475" cy="8925" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+									<text x="11975" y="7465" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="11975" dy="50" unicode-bidi="embed">Prawda</tspan>
 									</text>
-									<text x="11062" y="7540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="11062" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+									<text x="10987" y="7465" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="10987" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 									</text>
 								</g>
 								<g>
 								</g>
-								<ellipse cx="9950" cy="9125" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-								<text x="10200" y="7215" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="10200" dy="50" unicode-bidi="embed">Prawda</tspan>
+								<ellipse cx="9875" cy="9050" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+								<text x="10125" y="7140" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="10125" dy="50" unicode-bidi="embed">Prawda</tspan>
 								</text>
-								<text x="9712" y="7215" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="9712" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+								<text x="9637" y="7140" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="9637" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 								</text>
 							</g>
 						</g>
 						<g>
-							<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 9025,4325 L 8975,4375 L 9025,4425 L 9475,4425 L 9525,4375 L 9475,4325 Z"/>
-							<text x="9250" y="4340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-								<tspan x="9250" dy="50" unicode-bidi="embed">j = 0 do BoardSize</tspan>
+							<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 8950,4250 L 8900,4300 L 8950,4350 L 9400,4350 L 9450,4300 L 9400,4250 Z"/>
+							<text x="9175" y="4265" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="9175" dy="50" unicode-bidi="embed">j = 0 do BoardSize</tspan>
 							</text>
 						</g>
-						<text x="9650" y="4290" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="9650" dy="50" unicode-bidi="embed">Nast&#281;pny</tspan>
+						<text x="9575" y="4215" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="9575" dy="50" unicode-bidi="embed">Nast&#281;pny</tspan>
 						</text>
-						<text x="9112" y="4440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="9112" dy="50" unicode-bidi="embed">Wykonano</tspan>
+						<text x="9037" y="4365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="9037" dy="50" unicode-bidi="embed">Wykonano</tspan>
 						</text>
 					</g>
 					<g>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9625,9500 9825,9500 9825,9736"/>
-						<polygon fill="#404040" stroke="none" points="9825,9750 9838,9725 9811,9725"/>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9825,9850 9825,13775 9288,13775"/>
-						<polygon fill="#404040" stroke="none" points="9275,13775 9299,13788 9299,13761"/>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8875,9500 6875,9500 6875,9736"/>
-						<polygon fill="#404040" stroke="none" points="6875,9750 6888,9725 6861,9725"/>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6875,13675 6875,13775 9211,13775"/>
-						<polygon fill="#404040" stroke="none" points="9225,13775 9200,13761 9200,13788"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9550,9425 9750,9425 9750,9661"/>
+						<polygon fill="#404040" stroke="none" points="9750,9675 9763,9650 9736,9650"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9750,9775 9750,13700 9213,13700"/>
+						<polygon fill="#404040" stroke="none" points="9200,13700 9224,13713 9224,13686"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8800,9425 6800,9425 6800,9661"/>
+						<polygon fill="#404040" stroke="none" points="6800,9675 6813,9650 6786,9650"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6800,13600 6800,13700 9136,13700"/>
+						<polygon fill="#404040" stroke="none" points="9150,13700 9125,13686 9125,13713"/>
 						<g>
-							<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 9250,9300 L 8850,9500 L 9250,9700 L 9650,9500 Z"/>
-							<text x="9250" y="9440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-								<tspan x="9250" dy="50" unicode-bidi="embed">c3 == BoardSize - 1 || c4 ==</tspan>
-								<tspan x="9250" dy="50" unicode-bidi="embed"> BoardSize - 1</tspan>
+							<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 9175,9225 L 8775,9425 L 9175,9625 L 9575,9425 Z"/>
+							<text x="9175" y="9365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="9175" dy="50" unicode-bidi="embed">c3 == BoardSize - 1 || c4 ==</tspan>
+								<tspan x="9175" dy="50" unicode-bidi="embed"> BoardSize - 1</tspan>
 							</text>
 						</g>
 						<g>
-							<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 9675,9750 L 9675,9850 L 9975,9850 L 9975,9750 Z"/>
-							<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="9700,9750 9700,9850"/>
-							<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="9950,9750 9950,9850"/>
-							<text x="9825" y="9765" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-								<tspan x="9825" dy="50" unicode-bidi="embed">break</tspan>
+							<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 9600,9675 L 9600,9775 L 9900,9775 L 9900,9675 Z"/>
+							<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="9625,9675 9625,9775"/>
+							<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="9875,9675 9875,9775"/>
+							<text x="9750" y="9690" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="9750" dy="50" unicode-bidi="embed">break</tspan>
 							</text>
 						</g>
 						<g>
-							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6875,11675 6875,11736"/>
-							<polygon fill="#404040" stroke="none" points="6875,11750 6888,11725 6861,11725"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6800,11600 6800,11661"/>
+							<polygon fill="#404040" stroke="none" points="6800,11675 6813,11650 6786,11650"/>
 							<g>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7000,9825 8475,9825 8475,9936"/>
-								<polygon fill="#404040" stroke="none" points="8475,9950 8488,9925 8461,9925"/>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8475,11550 8475,11650 6913,11650"/>
-								<polygon fill="#404040" stroke="none" points="6900,11650 6924,11663 6924,11636"/>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6750,9825 6575,9825 6575,11650 6836,11650"/>
-								<polygon fill="#404040" stroke="none" points="6850,11650 6825,11636 6825,11663"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6925,9750 8400,9750 8400,9861"/>
+								<polygon fill="#404040" stroke="none" points="8400,9875 8413,9850 8386,9850"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8400,11475 8400,11575 6838,11575"/>
+								<polygon fill="#404040" stroke="none" points="6825,11575 6849,11588 6849,11561"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6675,9750 6500,9750 6500,11575 6761,11575"/>
+								<polygon fill="#404040" stroke="none" points="6775,11575 6750,11561 6750,11588"/>
 								<g>
-									<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 6875,9750 L 6725,9825 L 6875,9900 L 7025,9825 Z"/>
-									<text x="6875" y="9790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="6875" dy="50" unicode-bidi="embed">!bc3</tspan>
+									<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 6800,9675 L 6650,9750 L 6800,9825 L 6950,9750 Z"/>
+									<text x="6800" y="9715" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="6800" dy="50" unicode-bidi="embed">!bc3</tspan>
 									</text>
 								</g>
 								<g>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8850,10150 9050,10150 9050,10386"/>
-									<polygon fill="#404040" stroke="none" points="9050,10400 9063,10375 9036,10375"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9050,10500 9050,11525 8513,11525"/>
-									<polygon fill="#404040" stroke="none" points="8500,11525 8524,11538 8524,11511"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8100,10150 7650,10150 7650,10386"/>
-									<polygon fill="#404040" stroke="none" points="7650,10400 7663,10375 7636,10375"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7650,11425 7650,11525 8436,11525"/>
-									<polygon fill="#404040" stroke="none" points="8450,11525 8425,11511 8425,11538"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8775,10075 8975,10075 8975,10311"/>
+									<polygon fill="#404040" stroke="none" points="8975,10325 8988,10300 8961,10300"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8975,10425 8975,11450 8438,11450"/>
+									<polygon fill="#404040" stroke="none" points="8425,11450 8449,11463 8449,11436"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8025,10075 7575,10075 7575,10311"/>
+									<polygon fill="#404040" stroke="none" points="7575,10325 7588,10300 7561,10300"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7575,11350 7575,11450 8361,11450"/>
+									<polygon fill="#404040" stroke="none" points="8375,11450 8350,11436 8350,11463"/>
 									<g>
-										<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 8475,9950 L 8075,10150 L 8475,10350 L 8875,10150 Z"/>
-										<text x="8475" y="10090" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="8475" dy="50" unicode-bidi="embed">board[i * BoardSize + i] ==</tspan>
-											<tspan x="8475" dy="50" unicode-bidi="embed"> player</tspan>
+										<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 8400,9875 L 8000,10075 L 8400,10275 L 8800,10075 Z"/>
+										<text x="8400" y="10015" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="8400" dy="50" unicode-bidi="embed">board[i * BoardSize + i] ==</tspan>
+											<tspan x="8400" dy="50" unicode-bidi="embed"> player</tspan>
 										</text>
 									</g>
 									<g>
-										<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 8900,10400 L 8900,10500 L 9200,10500 L 9200,10400 Z"/>
-										<text x="9050" y="10415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="9050" dy="50" unicode-bidi="embed">c3 = c3 + 1</tspan>
+										<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 8825,10325 L 8825,10425 L 9125,10425 L 9125,10325 Z"/>
+										<text x="8975" y="10340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="8975" dy="50" unicode-bidi="embed">c3 = c3 + 1</tspan>
 										</text>
 									</g>
 									<g>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8025,10600 8225,10600 8225,10836"/>
-										<polygon fill="#404040" stroke="none" points="8225,10850 8238,10825 8211,10825"/>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8225,11125 8225,11400 7688,11400"/>
-										<polygon fill="#404040" stroke="none" points="7675,11400 7699,11413 7699,11386"/>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7275,10600 7100,10600 7100,10836"/>
-										<polygon fill="#404040" stroke="none" points="7100,10850 7113,10825 7086,10825"/>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7100,11300 7100,11400 7611,11400"/>
-										<polygon fill="#404040" stroke="none" points="7625,11400 7600,11386 7600,11413"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7950,10525 8150,10525 8150,10761"/>
+										<polygon fill="#404040" stroke="none" points="8150,10775 8163,10750 8136,10750"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8150,11050 8150,11325 7613,11325"/>
+										<polygon fill="#404040" stroke="none" points="7600,11325 7624,11338 7624,11311"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7200,10525 7025,10525 7025,10761"/>
+										<polygon fill="#404040" stroke="none" points="7025,10775 7038,10750 7011,10750"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7025,11225 7025,11325 7536,11325"/>
+										<polygon fill="#404040" stroke="none" points="7550,11325 7525,11311 7525,11338"/>
 										<g>
-											<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 7650,10400 L 7250,10600 L 7650,10800 L 8050,10600 Z"/>
-											<text x="7650" y="10540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-												<tspan x="7650" dy="50" unicode-bidi="embed">board[i * BoardSize + i] ==</tspan>
-												<tspan x="7650" dy="50" unicode-bidi="embed"> EMPTY &amp;&amp; !bc3</tspan>
+											<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 7575,10325 L 7175,10525 L 7575,10725 L 7975,10525 Z"/>
+											<text x="7575" y="10465" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+												<tspan x="7575" dy="50" unicode-bidi="embed">board[i * BoardSize + i] ==</tspan>
+												<tspan x="7575" dy="50" unicode-bidi="embed"> EMPTY &amp;&amp; !bc3</tspan>
 											</text>
 										</g>
 										<g>
-											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8225,10950 8225,11011"/>
-											<polygon fill="#404040" stroke="none" points="8225,11025 8238,11000 8211,11000"/>
+											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8150,10875 8150,10936"/>
+											<polygon fill="#404040" stroke="none" points="8150,10950 8163,10925 8136,10925"/>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 8075,10850 L 8075,10950 L 8375,10950 L 8375,10850 Z"/>
-												<text x="8225" y="10865" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="8225" dy="50" unicode-bidi="embed">bc3 = True</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 8000,10775 L 8000,10875 L 8300,10875 L 8300,10775 Z"/>
+												<text x="8150" y="10790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="8150" dy="50" unicode-bidi="embed">bc3 = True</tspan>
 												</text>
 											</g>
 											<g>
-												<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 8025,11025 L 8025,11125 L 8425,11125 L 8425,11025 Z"/>
-												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="8050,11025 8050,11125"/>
-												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="8400,11025 8400,11125"/>
-												<text x="8225" y="11040" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="8225" dy="50" unicode-bidi="embed">point3[j].set(i,i)</tspan>
+												<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 7950,10950 L 7950,11050 L 8350,11050 L 8350,10950 Z"/>
+												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="7975,10950 7975,11050"/>
+												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="8325,10950 8325,11050"/>
+												<text x="8150" y="10965" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="8150" dy="50" unicode-bidi="embed">point3[j].set(i,i)</tspan>
 												</text>
 											</g>
 										</g>
 										<g>
-											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7100,10950 7100,11011"/>
-											<polygon fill="#404040" stroke="none" points="7100,11025 7113,11000 7086,11000"/>
-											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7100,11125 7100,11186"/>
-											<polygon fill="#404040" stroke="none" points="7100,11200 7113,11175 7086,11175"/>
+											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7025,10875 7025,10936"/>
+											<polygon fill="#404040" stroke="none" points="7025,10950 7038,10925 7011,10925"/>
+											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7025,11050 7025,11111"/>
+											<polygon fill="#404040" stroke="none" points="7025,11125 7038,11100 7011,11100"/>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6950,10850 L 6950,10950 L 7250,10950 L 7250,10850 Z"/>
-												<text x="7100" y="10865" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="7100" dy="50" unicode-bidi="embed">bc3 = True</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6875,10775 L 6875,10875 L 7175,10875 L 7175,10775 Z"/>
+												<text x="7025" y="10790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="7025" dy="50" unicode-bidi="embed">bc3 = True</tspan>
 												</text>
 											</g>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6925,11025 L 6925,11125 L 7275,11125 L 7275,11025 Z"/>
-												<text x="7100" y="11040" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="7100" dy="50" unicode-bidi="embed">point3 = NULL</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6850,10950 L 6850,11050 L 7200,11050 L 7200,10950 Z"/>
+												<text x="7025" y="10965" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="7025" dy="50" unicode-bidi="embed">point3 = NULL</tspan>
 												</text>
 											</g>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6950,11200 L 6950,11300 L 7250,11300 L 7250,11200 Z"/>
-												<text x="7100" y="11215" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="7100" dy="50" unicode-bidi="embed">c3 = -1</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6875,11125 L 6875,11225 L 7175,11225 L 7175,11125 Z"/>
+												<text x="7025" y="11140" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="7025" dy="50" unicode-bidi="embed">c3 = -1</tspan>
 												</text>
 											</g>
 										</g>
-										<ellipse cx="7650" cy="11400" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-										<text x="8150" y="10515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="8150" dy="50" unicode-bidi="embed">Prawda</tspan>
+										<ellipse cx="7575" cy="11325" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+										<text x="8075" y="10440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="8075" dy="50" unicode-bidi="embed">Prawda</tspan>
 										</text>
-										<text x="7162" y="10515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="7162" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+										<text x="7087" y="10440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="7087" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 										</text>
 									</g>
-									<ellipse cx="8475" cy="11525" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-									<text x="8975" y="10065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="8975" dy="50" unicode-bidi="embed">Prawda</tspan>
+									<ellipse cx="8400" cy="11450" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+									<text x="8900" y="9990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="8900" dy="50" unicode-bidi="embed">Prawda</tspan>
 									</text>
-									<text x="7987" y="10065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="7987" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+									<text x="7912" y="9990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="7912" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 									</text>
 								</g>
 								<g>
 								</g>
-								<ellipse cx="6875" cy="11650" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-								<text x="7125" y="9740" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="7125" dy="50" unicode-bidi="embed">Prawda</tspan>
+								<ellipse cx="6800" cy="11575" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+								<text x="7050" y="9665" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="7050" dy="50" unicode-bidi="embed">Prawda</tspan>
 								</text>
-								<text x="6637" y="9740" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="6637" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+								<text x="6562" y="9665" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="6562" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 								</text>
 							</g>
 							<g>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7000,11825 8475,11825 8475,11936"/>
-								<polygon fill="#404040" stroke="none" points="8475,11950 8488,11925 8461,11925"/>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8475,13550 8475,13650 6913,13650"/>
-								<polygon fill="#404040" stroke="none" points="6900,13650 6924,13663 6924,13636"/>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6750,11825 6575,11825 6575,13650 6836,13650"/>
-								<polygon fill="#404040" stroke="none" points="6850,13650 6825,13636 6825,13663"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6925,11750 8400,11750 8400,11861"/>
+								<polygon fill="#404040" stroke="none" points="8400,11875 8413,11850 8386,11850"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8400,13475 8400,13575 6838,13575"/>
+								<polygon fill="#404040" stroke="none" points="6825,13575 6849,13588 6849,13561"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6675,11750 6500,11750 6500,13575 6761,13575"/>
+								<polygon fill="#404040" stroke="none" points="6775,13575 6750,13561 6750,13588"/>
 								<g>
-									<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 6875,11750 L 6725,11825 L 6875,11900 L 7025,11825 Z"/>
-									<text x="6875" y="11790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="6875" dy="50" unicode-bidi="embed">!bc4</tspan>
+									<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 6800,11675 L 6650,11750 L 6800,11825 L 6950,11750 Z"/>
+									<text x="6800" y="11715" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="6800" dy="50" unicode-bidi="embed">!bc4</tspan>
 									</text>
 								</g>
 								<g>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8850,12150 9050,12150 9050,12386"/>
-									<polygon fill="#404040" stroke="none" points="9050,12400 9063,12375 9036,12375"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="9050,12500 9050,13525 8513,13525"/>
-									<polygon fill="#404040" stroke="none" points="8500,13525 8524,13538 8524,13511"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8100,12150 7650,12150 7650,12386"/>
-									<polygon fill="#404040" stroke="none" points="7650,12400 7663,12375 7636,12375"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7650,13425 7650,13525 8436,13525"/>
-									<polygon fill="#404040" stroke="none" points="8450,13525 8425,13511 8425,13538"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8775,12075 8975,12075 8975,12311"/>
+									<polygon fill="#404040" stroke="none" points="8975,12325 8988,12300 8961,12300"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8975,12425 8975,13450 8438,13450"/>
+									<polygon fill="#404040" stroke="none" points="8425,13450 8449,13463 8449,13436"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8025,12075 7575,12075 7575,12311"/>
+									<polygon fill="#404040" stroke="none" points="7575,12325 7588,12300 7561,12300"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7575,13350 7575,13450 8361,13450"/>
+									<polygon fill="#404040" stroke="none" points="8375,13450 8350,13436 8350,13463"/>
 									<g>
-										<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 8475,11950 L 8075,12150 L 8475,12350 L 8875,12150 Z"/>
-										<text x="8475" y="12065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="8475" dy="50" unicode-bidi="embed">board[i * BoardSize +</tspan>
-											<tspan x="8475" dy="50" unicode-bidi="embed"> (BoardSize - 1 - i)] ==</tspan>
-											<tspan x="8475" dy="50" unicode-bidi="embed"> player</tspan>
+										<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 8400,11875 L 8000,12075 L 8400,12275 L 8800,12075 Z"/>
+										<text x="8400" y="11990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="8400" dy="50" unicode-bidi="embed">board[i * BoardSize +</tspan>
+											<tspan x="8400" dy="50" unicode-bidi="embed"> (BoardSize - 1 - i)] ==</tspan>
+											<tspan x="8400" dy="50" unicode-bidi="embed"> player</tspan>
 										</text>
 									</g>
 									<g>
-										<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 8900,12400 L 8900,12500 L 9200,12500 L 9200,12400 Z"/>
-										<text x="9050" y="12415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="9050" dy="50" unicode-bidi="embed">c4 = c4 + 1</tspan>
+										<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 8825,12325 L 8825,12425 L 9125,12425 L 9125,12325 Z"/>
+										<text x="8975" y="12340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="8975" dy="50" unicode-bidi="embed">c4 = c4 + 1</tspan>
 										</text>
 									</g>
 									<g>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8025,12600 8225,12600 8225,12836"/>
-										<polygon fill="#404040" stroke="none" points="8225,12850 8238,12825 8211,12825"/>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8225,13125 8225,13400 7688,13400"/>
-										<polygon fill="#404040" stroke="none" points="7675,13400 7699,13413 7699,13386"/>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7275,12600 7100,12600 7100,12836"/>
-										<polygon fill="#404040" stroke="none" points="7100,12850 7113,12825 7086,12825"/>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7100,13300 7100,13400 7611,13400"/>
-										<polygon fill="#404040" stroke="none" points="7625,13400 7600,13386 7600,13413"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7950,12525 8150,12525 8150,12761"/>
+										<polygon fill="#404040" stroke="none" points="8150,12775 8163,12750 8136,12750"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8150,13050 8150,13325 7613,13325"/>
+										<polygon fill="#404040" stroke="none" points="7600,13325 7624,13338 7624,13311"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7200,12525 7025,12525 7025,12761"/>
+										<polygon fill="#404040" stroke="none" points="7025,12775 7038,12750 7011,12750"/>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7025,13225 7025,13325 7536,13325"/>
+										<polygon fill="#404040" stroke="none" points="7550,13325 7525,13311 7525,13338"/>
 										<g>
-											<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 7650,12400 L 7250,12600 L 7650,12800 L 8050,12600 Z"/>
-											<text x="7650" y="12515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-												<tspan x="7650" dy="50" unicode-bidi="embed">board[i * BoardSize +</tspan>
-												<tspan x="7650" dy="50" unicode-bidi="embed"> (BoardSize - 1 - i)] ==</tspan>
-												<tspan x="7650" dy="50" unicode-bidi="embed"> EMPTY &amp;&amp; !bc4</tspan>
+											<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 7575,12325 L 7175,12525 L 7575,12725 L 7975,12525 Z"/>
+											<text x="7575" y="12440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+												<tspan x="7575" dy="50" unicode-bidi="embed">board[i * BoardSize +</tspan>
+												<tspan x="7575" dy="50" unicode-bidi="embed"> (BoardSize - 1 - i)] ==</tspan>
+												<tspan x="7575" dy="50" unicode-bidi="embed"> EMPTY &amp;&amp; !bc4</tspan>
 											</text>
 										</g>
 										<g>
-											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8225,12950 8225,13011"/>
-											<polygon fill="#404040" stroke="none" points="8225,13025 8238,13000 8211,13000"/>
+											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8150,12875 8150,12936"/>
+											<polygon fill="#404040" stroke="none" points="8150,12950 8163,12925 8136,12925"/>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 8075,12850 L 8075,12950 L 8375,12950 L 8375,12850 Z"/>
-												<text x="8225" y="12865" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="8225" dy="50" unicode-bidi="embed">bc4 = True</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 8000,12775 L 8000,12875 L 8300,12875 L 8300,12775 Z"/>
+												<text x="8150" y="12790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="8150" dy="50" unicode-bidi="embed">bc4 = True</tspan>
 												</text>
 											</g>
 											<g>
-												<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 8025,13025 L 8025,13125 L 8425,13125 L 8425,13025 Z"/>
-												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="8050,13025 8050,13125"/>
-												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="8400,13025 8400,13125"/>
-												<text x="8225" y="13040" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="8225" dy="50" unicode-bidi="embed">point4[j].set(i,i)</tspan>
+												<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 7950,12950 L 7950,13050 L 8350,13050 L 8350,12950 Z"/>
+												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="7975,12950 7975,13050"/>
+												<polyline fill="none" stroke="#602020" stroke-width="3" stroke-dasharray="none" points="8325,12950 8325,13050"/>
+												<text x="8150" y="12965" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="8150" dy="50" unicode-bidi="embed">point4[j].set(i,i)</tspan>
 												</text>
 											</g>
 										</g>
 										<g>
-											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7100,12950 7100,13011"/>
-											<polygon fill="#404040" stroke="none" points="7100,13025 7113,13000 7086,13000"/>
-											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7100,13125 7100,13186"/>
-											<polygon fill="#404040" stroke="none" points="7100,13200 7113,13175 7086,13175"/>
+											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7025,12875 7025,12936"/>
+											<polygon fill="#404040" stroke="none" points="7025,12950 7038,12925 7011,12925"/>
+											<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7025,13050 7025,13111"/>
+											<polygon fill="#404040" stroke="none" points="7025,13125 7038,13100 7011,13100"/>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6950,12850 L 6950,12950 L 7250,12950 L 7250,12850 Z"/>
-												<text x="7100" y="12865" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="7100" dy="50" unicode-bidi="embed">bc4 = True</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6875,12775 L 6875,12875 L 7175,12875 L 7175,12775 Z"/>
+												<text x="7025" y="12790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="7025" dy="50" unicode-bidi="embed">bc4 = True</tspan>
 												</text>
 											</g>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6925,13025 L 6925,13125 L 7275,13125 L 7275,13025 Z"/>
-												<text x="7100" y="13040" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="7100" dy="50" unicode-bidi="embed">point4 = NULL</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6850,12950 L 6850,13050 L 7200,13050 L 7200,12950 Z"/>
+												<text x="7025" y="12965" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="7025" dy="50" unicode-bidi="embed">point4 = NULL</tspan>
 												</text>
 											</g>
 											<g>
-												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6950,13200 L 6950,13300 L 7250,13300 L 7250,13200 Z"/>
-												<text x="7100" y="13215" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-													<tspan x="7100" dy="50" unicode-bidi="embed">c4 = -1</tspan>
+												<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6875,13125 L 6875,13225 L 7175,13225 L 7175,13125 Z"/>
+												<text x="7025" y="13140" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+													<tspan x="7025" dy="50" unicode-bidi="embed">c4 = -1</tspan>
 												</text>
 											</g>
 										</g>
-										<ellipse cx="7650" cy="13400" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-										<text x="8150" y="12515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="8150" dy="50" unicode-bidi="embed">Prawda</tspan>
+										<ellipse cx="7575" cy="13325" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+										<text x="8075" y="12440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="8075" dy="50" unicode-bidi="embed">Prawda</tspan>
 										</text>
-										<text x="7162" y="12515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="7162" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+										<text x="7087" y="12440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="7087" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 										</text>
 									</g>
-									<ellipse cx="8475" cy="13525" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-									<text x="8975" y="12065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="8975" dy="50" unicode-bidi="embed">Prawda</tspan>
+									<ellipse cx="8400" cy="13450" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+									<text x="8900" y="11990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="8900" dy="50" unicode-bidi="embed">Prawda</tspan>
 									</text>
-									<text x="7987" y="12065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="7987" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+									<text x="7912" y="11990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="7912" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 									</text>
 								</g>
 								<g>
 								</g>
-								<ellipse cx="6875" cy="13650" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-								<text x="7125" y="11740" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="7125" dy="50" unicode-bidi="embed">Prawda</tspan>
+								<ellipse cx="6800" cy="13575" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+								<text x="7050" y="11665" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="7050" dy="50" unicode-bidi="embed">Prawda</tspan>
 								</text>
-								<text x="6637" y="11740" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="6637" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+								<text x="6562" y="11665" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="6562" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 								</text>
 							</g>
 						</g>
-						<ellipse cx="9250" cy="13775" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-						<text x="9750" y="9415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="9750" dy="50" unicode-bidi="embed">Prawda</tspan>
+						<ellipse cx="9175" cy="13700" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+						<text x="9675" y="9340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="9675" dy="50" unicode-bidi="embed">Prawda</tspan>
 						</text>
-						<text x="8762" y="9415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="8762" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+						<text x="8687" y="9340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="8687" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 						</text>
 					</g>
 				</g>
 				<g>
-					<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 6200,3800 L 6150,3850 L 6200,3900 L 6650,3900 L 6700,3850 L 6650,3800 Z"/>
-					<text x="6425" y="3815" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-						<tspan x="6425" dy="50" unicode-bidi="embed">i = 0 do BoardSize</tspan>
+					<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 6125,3725 L 6075,3775 L 6125,3825 L 6575,3825 L 6625,3775 L 6575,3725 Z"/>
+					<text x="6350" y="3740" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="6350" dy="50" unicode-bidi="embed">i = 0 do BoardSize</tspan>
 					</text>
 				</g>
-				<text x="6825" y="3765" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6825" dy="50" unicode-bidi="embed">Nast&#281;pny</tspan>
+				<text x="6750" y="3690" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6750" dy="50" unicode-bidi="embed">Nast&#281;pny</tspan>
 				</text>
-				<text x="6287" y="3915" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6287" dy="50" unicode-bidi="embed">Wykonano</tspan>
-				</text>
-			</g>
-			<g>
-				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6275,13950 L 6275,14075 L 6575,14075 L 6575,13950 Z"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6275,13975 6575,13975"/>
-				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6300,13950 6300,14075"/>
-				<text x="6437" y="13990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6437" dy="50" unicode-bidi="embed">String point</tspan>
+				<text x="6212" y="3840" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6212" dy="50" unicode-bidi="embed">Wykonano</tspan>
 				</text>
 			</g>
 			<g>
-				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6650,14275 6850,14275 6850,14461"/>
-				<polygon fill="#404040" stroke="none" points="6850,14475 6863,14450 6836,14450"/>
-				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6850,14575 6850,16975 6463,16975"/>
-				<polygon fill="#404040" stroke="none" points="6450,16975 6474,16988 6474,16961"/>
-				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6200,14275 4450,14275 4450,14436"/>
-				<polygon fill="#404040" stroke="none" points="4450,14450 4463,14425 4436,14425"/>
-				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="4450,16875 4450,16975 6386,16975"/>
-				<polygon fill="#404040" stroke="none" points="6400,16975 6375,16961 6375,16988"/>
-				<g>
-					<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 6425,14150 L 6175,14275 L 6425,14400 L 6675,14275 Z"/>
-					<text x="6425" y="14240" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-						<tspan x="6425" dy="50" unicode-bidi="embed">c1 == BoardSize</tspan>
-					</text>
-				</g>
-				<g>
-					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7125,14525 7575,14525 7575,14611"/>
-					<polygon fill="#404040" stroke="none" points="7575,14625 7588,14600 7561,14600"/>
-					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7575,15525 7575,15600 6900,15600 6900,14588"/>
-					<polygon fill="#404040" stroke="none" points="6900,14575 6886,14599 6913,14599"/>
-					<g>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7975,14850 8175,14850 8175,15111"/>
-						<polygon fill="#404040" stroke="none" points="8175,15125 8188,15100 8161,15100"/>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8175,15400 8175,15500 7613,15500"/>
-						<polygon fill="#404040" stroke="none" points="7600,15500 7624,15513 7624,15486"/>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7175,14850 7000,14850 7000,15500 7536,15500"/>
-						<polygon fill="#404040" stroke="none" points="7550,15500 7525,15486 7525,15513"/>
-						<g>
-							<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 7575,14625 L 7150,14850 L 7575,15075 L 8000,14850 Z"/>
-							<text x="7575" y="14790" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-								<tspan x="7575" dy="50" unicode-bidi="embed">point1[i].x != -1 &amp;&amp; point1[i].y</tspan>
-								<tspan x="7575" dy="50" unicode-bidi="embed"> != -1</tspan>
-							</text>
-						</g>
-						<g>
-							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8175,15225 8175,15286"/>
-							<polygon fill="#404040" stroke="none" points="8175,15300 8188,15275 8161,15275"/>
-							<g>
-								<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 8000,15125 L 8000,15225 L 8350,15225 L 8350,15125 Z"/>
-								<text x="8175" y="15140" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="8175" dy="50" unicode-bidi="embed">point = point1[i]</tspan>
-								</text>
-							</g>
-							<g>
-								<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 8025,15300 L 8025,15400 L 8325,15400 L 8325,15300 Z"/>
-								<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="8050,15300 8050,15400"/>
-								<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="8300,15300 8300,15400"/>
-								<text x="8175" y="15315" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="8175" dy="50" unicode-bidi="embed">break</tspan>
-								</text>
-							</g>
-						</g>
-						<g>
-						</g>
-						<ellipse cx="7575" cy="15500" rx="25" ry="25" fill="#C04040" stroke="#602020" stroke-width="3"/>
-						<text x="8100" y="14765" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="8100" dy="50" unicode-bidi="embed">Prawda</tspan>
-						</text>
-						<text x="7062" y="14765" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="7062" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
-						</text>
-					</g>
-					<g>
-						<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 6625,14475 L 6575,14525 L 6625,14575 L 7075,14575 L 7125,14525 L 7075,14475 Z"/>
-						<text x="6850" y="14490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="6850" dy="50" unicode-bidi="embed">i = 0 do BoardSize</tspan>
-						</text>
-					</g>
-					<text x="7250" y="14440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-						<tspan x="7250" dy="50" unicode-bidi="embed">Nast&#281;pny</tspan>
-					</text>
-					<text x="6712" y="14590" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-						<tspan x="6712" dy="50" unicode-bidi="embed">Wykonano</tspan>
-					</text>
-				</g>
-				<g>
-					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="4675,14575 4875,14575 4875,14761"/>
-					<polygon fill="#404040" stroke="none" points="4875,14775 4888,14750 4861,14750"/>
-					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="4875,14875 4875,16850 4488,16850"/>
-					<polygon fill="#404040" stroke="none" points="4475,16850 4499,16863 4499,16836"/>
-					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="4225,14575 2475,14575 2475,14736"/>
-					<polygon fill="#404040" stroke="none" points="2475,14750 2488,14725 2461,14725"/>
-					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2475,16750 2475,16850 4411,16850"/>
-					<polygon fill="#404040" stroke="none" points="4425,16850 4400,16836 4400,16863"/>
-					<g>
-						<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 4450,14450 L 4200,14575 L 4450,14700 L 4700,14575 Z"/>
-						<text x="4450" y="14540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="4450" dy="50" unicode-bidi="embed">c2 == BoardSize</tspan>
-						</text>
-					</g>
-					<g>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="5150,14825 5600,14825 5600,14911"/>
-						<polygon fill="#404040" stroke="none" points="5600,14925 5613,14900 5586,14900"/>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="5600,15825 5600,15900 4925,15900 4925,14888"/>
-						<polygon fill="#404040" stroke="none" points="4925,14875 4911,14899 4938,14899"/>
-						<g>
-							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6000,15150 6200,15150 6200,15411"/>
-							<polygon fill="#404040" stroke="none" points="6200,15425 6213,15400 6186,15400"/>
-							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6200,15700 6200,15800 5638,15800"/>
-							<polygon fill="#404040" stroke="none" points="5625,15800 5649,15813 5649,15786"/>
-							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="5200,15150 5025,15150 5025,15800 5561,15800"/>
-							<polygon fill="#404040" stroke="none" points="5575,15800 5550,15786 5550,15813"/>
-							<g>
-								<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 5600,14925 L 5175,15150 L 5600,15375 L 6025,15150 Z"/>
-								<text x="5600" y="15090" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="5600" dy="50" unicode-bidi="embed">point2[i].x != -1 &amp;&amp; point2[i].y</tspan>
-									<tspan x="5600" dy="50" unicode-bidi="embed"> != -1</tspan>
-								</text>
-							</g>
-							<g>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6200,15525 6200,15586"/>
-								<polygon fill="#404040" stroke="none" points="6200,15600 6213,15575 6186,15575"/>
-								<g>
-									<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6025,15425 L 6025,15525 L 6375,15525 L 6375,15425 Z"/>
-									<text x="6200" y="15440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="6200" dy="50" unicode-bidi="embed">point = point2[i]</tspan>
-									</text>
-								</g>
-								<g>
-									<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 6050,15600 L 6050,15700 L 6350,15700 L 6350,15600 Z"/>
-									<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="6075,15600 6075,15700"/>
-									<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="6325,15600 6325,15700"/>
-									<text x="6200" y="15615" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="6200" dy="50" unicode-bidi="embed">break</tspan>
-									</text>
-								</g>
-							</g>
-							<g>
-							</g>
-							<ellipse cx="5600" cy="15800" rx="25" ry="25" fill="#C04040" stroke="#602020" stroke-width="3"/>
-							<text x="6125" y="15065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-								<tspan x="6125" dy="50" unicode-bidi="embed">Prawda</tspan>
-							</text>
-							<text x="5087" y="15065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-								<tspan x="5087" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
-							</text>
-						</g>
-						<g>
-							<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 4650,14775 L 4600,14825 L 4650,14875 L 5100,14875 L 5150,14825 L 5100,14775 Z"/>
-							<text x="4875" y="14790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-								<tspan x="4875" dy="50" unicode-bidi="embed">i = 0 do BoardSize</tspan>
-							</text>
-						</g>
-						<text x="5275" y="14740" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="5275" dy="50" unicode-bidi="embed">Nast&#281;pny</tspan>
-						</text>
-						<text x="4737" y="14890" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="4737" dy="50" unicode-bidi="embed">Wykonano</tspan>
-						</text>
-					</g>
-					<g>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2700,14875 2900,14875 2900,15061"/>
-						<polygon fill="#404040" stroke="none" points="2900,15075 2913,15050 2886,15050"/>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2900,15175 2900,16725 2513,16725"/>
-						<polygon fill="#404040" stroke="none" points="2500,16725 2524,16738 2524,16711"/>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2250,14875 500,14875 500,15036"/>
-						<polygon fill="#404040" stroke="none" points="500,15050 513,15025 486,15025"/>
-						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="500,16625 500,16725 2436,16725"/>
-						<polygon fill="#404040" stroke="none" points="2450,16725 2425,16711 2425,16738"/>
-						<g>
-							<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 2475,14750 L 2225,14875 L 2475,15000 L 2725,14875 Z"/>
-							<text x="2475" y="14840" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-								<tspan x="2475" dy="50" unicode-bidi="embed">c3 == BoardSize</tspan>
-							</text>
-						</g>
-						<g>
-							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="3175,15125 3625,15125 3625,15211"/>
-							<polygon fill="#404040" stroke="none" points="3625,15225 3638,15200 3611,15200"/>
-							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="3625,16125 3625,16200 2950,16200 2950,15188"/>
-							<polygon fill="#404040" stroke="none" points="2950,15175 2936,15199 2963,15199"/>
-							<g>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="4025,15450 4225,15450 4225,15711"/>
-								<polygon fill="#404040" stroke="none" points="4225,15725 4238,15700 4211,15700"/>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="4225,16000 4225,16100 3663,16100"/>
-								<polygon fill="#404040" stroke="none" points="3650,16100 3674,16113 3674,16086"/>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="3225,15450 3050,15450 3050,16100 3586,16100"/>
-								<polygon fill="#404040" stroke="none" points="3600,16100 3575,16086 3575,16113"/>
-								<g>
-									<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 3625,15225 L 3200,15450 L 3625,15675 L 4050,15450 Z"/>
-									<text x="3625" y="15390" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="3625" dy="50" unicode-bidi="embed">point3[i].x != -1 &amp;&amp; point3[i].y</tspan>
-										<tspan x="3625" dy="50" unicode-bidi="embed"> != -1</tspan>
-									</text>
-								</g>
-								<g>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="4225,15825 4225,15886"/>
-									<polygon fill="#404040" stroke="none" points="4225,15900 4238,15875 4211,15875"/>
-									<g>
-										<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 4050,15725 L 4050,15825 L 4400,15825 L 4400,15725 Z"/>
-										<text x="4225" y="15740" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="4225" dy="50" unicode-bidi="embed">point = point3[i]</tspan>
-										</text>
-									</g>
-									<g>
-										<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 4075,15900 L 4075,16000 L 4375,16000 L 4375,15900 Z"/>
-										<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="4100,15900 4100,16000"/>
-										<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="4350,15900 4350,16000"/>
-										<text x="4225" y="15915" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="4225" dy="50" unicode-bidi="embed">break</tspan>
-										</text>
-									</g>
-								</g>
-								<g>
-								</g>
-								<ellipse cx="3625" cy="16100" rx="25" ry="25" fill="#C04040" stroke="#602020" stroke-width="3"/>
-								<text x="4150" y="15365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="4150" dy="50" unicode-bidi="embed">Prawda</tspan>
-								</text>
-								<text x="3112" y="15365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="3112" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
-								</text>
-							</g>
-							<g>
-								<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 2675,15075 L 2625,15125 L 2675,15175 L 3125,15175 L 3175,15125 L 3125,15075 Z"/>
-								<text x="2900" y="15090" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="2900" dy="50" unicode-bidi="embed">i = 0 do BoardSize</tspan>
-								</text>
-							</g>
-							<text x="3300" y="15040" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-								<tspan x="3300" dy="50" unicode-bidi="embed">Nast&#281;pny</tspan>
-							</text>
-							<text x="2762" y="15190" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-								<tspan x="2762" dy="50" unicode-bidi="embed">Wykonano</tspan>
-							</text>
-						</g>
-						<g>
-							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="725,15175 925,15175 925,15361"/>
-							<polygon fill="#404040" stroke="none" points="925,15375 938,15350 911,15350"/>
-							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="925,15475 925,16600 538,16600"/>
-							<polygon fill="#404040" stroke="none" points="525,16600 549,16613 549,16586"/>
-							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="275,15175 100,15175 100,16600 461,16600"/>
-							<polygon fill="#404040" stroke="none" points="475,16600 450,16586 450,16613"/>
-							<g>
-								<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 500,15050 L 250,15175 L 500,15300 L 750,15175 Z"/>
-								<text x="500" y="15140" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="500" dy="50" unicode-bidi="embed">c4 == BoardSize</tspan>
-								</text>
-							</g>
-							<g>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1200,15425 1650,15425 1650,15511"/>
-								<polygon fill="#404040" stroke="none" points="1650,15525 1663,15500 1636,15500"/>
-								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1650,16425 1650,16500 975,16500 975,15488"/>
-								<polygon fill="#404040" stroke="none" points="975,15475 961,15499 988,15499"/>
-								<g>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2050,15750 2250,15750 2250,16011"/>
-									<polygon fill="#404040" stroke="none" points="2250,16025 2263,16000 2236,16000"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2250,16300 2250,16400 1688,16400"/>
-									<polygon fill="#404040" stroke="none" points="1675,16400 1699,16413 1699,16386"/>
-									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1250,15750 1075,15750 1075,16400 1611,16400"/>
-									<polygon fill="#404040" stroke="none" points="1625,16400 1600,16386 1600,16413"/>
-									<g>
-										<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 1650,15525 L 1225,15750 L 1650,15975 L 2075,15750 Z"/>
-										<text x="1650" y="15690" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-											<tspan x="1650" dy="50" unicode-bidi="embed">point4[i].x != -1 &amp;&amp; point4[i].y</tspan>
-											<tspan x="1650" dy="50" unicode-bidi="embed"> != -1</tspan>
-										</text>
-									</g>
-									<g>
-										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2250,16125 2250,16186"/>
-										<polygon fill="#404040" stroke="none" points="2250,16200 2263,16175 2236,16175"/>
-										<g>
-											<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 2075,16025 L 2075,16125 L 2425,16125 L 2425,16025 Z"/>
-											<text x="2250" y="16040" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-												<tspan x="2250" dy="50" unicode-bidi="embed">point = point4[i]</tspan>
-											</text>
-										</g>
-										<g>
-											<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 2100,16200 L 2100,16300 L 2400,16300 L 2400,16200 Z"/>
-											<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="2125,16200 2125,16300"/>
-											<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="2375,16200 2375,16300"/>
-											<text x="2250" y="16215" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-												<tspan x="2250" dy="50" unicode-bidi="embed">break</tspan>
-											</text>
-										</g>
-									</g>
-									<g>
-									</g>
-									<ellipse cx="1650" cy="16400" rx="25" ry="25" fill="#C04040" stroke="#602020" stroke-width="3"/>
-									<text x="2175" y="15665" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="2175" dy="50" unicode-bidi="embed">Prawda</tspan>
-									</text>
-									<text x="1137" y="15665" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="1137" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
-									</text>
-								</g>
-								<g>
-									<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 700,15375 L 650,15425 L 700,15475 L 1150,15475 L 1200,15425 L 1150,15375 Z"/>
-									<text x="925" y="15390" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-										<tspan x="925" dy="50" unicode-bidi="embed">i = 0 do BoardSize</tspan>
-									</text>
-								</g>
-								<text x="1325" y="15340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="1325" dy="50" unicode-bidi="embed">Nast&#281;pny</tspan>
-								</text>
-								<text x="787" y="15490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-									<tspan x="787" dy="50" unicode-bidi="embed">Wykonano</tspan>
-								</text>
-							</g>
-							<g>
-							</g>
-							<ellipse cx="500" cy="16600" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-							<text x="850" y="15090" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-								<tspan x="850" dy="50" unicode-bidi="embed">Prawda</tspan>
-							</text>
-							<text x="162" y="15090" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-								<tspan x="162" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
-							</text>
-						</g>
-						<ellipse cx="2475" cy="16725" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-						<text x="2825" y="14790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="2825" dy="50" unicode-bidi="embed">Prawda</tspan>
-						</text>
-						<text x="2137" y="14790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-							<tspan x="2137" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
-						</text>
-					</g>
-					<ellipse cx="4450" cy="16850" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-					<text x="4800" y="14490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-						<tspan x="4800" dy="50" unicode-bidi="embed">Prawda</tspan>
-					</text>
-					<text x="4112" y="14490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-						<tspan x="4112" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
-					</text>
-				</g>
-				<ellipse cx="6425" cy="16975" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
-				<text x="6775" y="14190" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6775" dy="50" unicode-bidi="embed">Prawda</tspan>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 6200,13875 L 6200,14000 L 6500,14000 L 6500,13875 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6200,13900 6500,13900"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="6225,13875 6225,14000"/>
+				<text x="6362" y="13915" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6362" dy="50" unicode-bidi="embed">String point</tspan>
 				</text>
-				<text x="6087" y="14190" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
-					<tspan x="6087" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6575,14200 6775,14200 6775,14386"/>
+				<polygon fill="#404040" stroke="none" points="6775,14400 6788,14375 6761,14375"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6775,14500 6775,16900 6388,16900"/>
+				<polygon fill="#404040" stroke="none" points="6375,16900 6399,16913 6399,16886"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6125,14200 4375,14200 4375,14361"/>
+				<polygon fill="#404040" stroke="none" points="4375,14375 4388,14350 4361,14350"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="4375,16800 4375,16900 6311,16900"/>
+				<polygon fill="#404040" stroke="none" points="6325,16900 6300,16886 6300,16913"/>
+				<g>
+					<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 6350,14075 L 6100,14200 L 6350,14325 L 6600,14200 Z"/>
+					<text x="6350" y="14165" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="6350" dy="50" unicode-bidi="embed">c1 == BoardSize</tspan>
+					</text>
+				</g>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7050,14450 7500,14450 7500,14536"/>
+					<polygon fill="#404040" stroke="none" points="7500,14550 7513,14525 7486,14525"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7500,15450 7500,15525 6825,15525 6825,14513"/>
+					<polygon fill="#404040" stroke="none" points="6825,14500 6811,14524 6838,14524"/>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7900,14775 8100,14775 8100,15036"/>
+						<polygon fill="#404040" stroke="none" points="8100,15050 8113,15025 8086,15025"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8100,15325 8100,15425 7538,15425"/>
+						<polygon fill="#404040" stroke="none" points="7525,15425 7549,15438 7549,15411"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="7100,14775 6925,14775 6925,15425 7461,15425"/>
+						<polygon fill="#404040" stroke="none" points="7475,15425 7450,15411 7450,15438"/>
+						<g>
+							<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 7500,14550 L 7075,14775 L 7500,15000 L 7925,14775 Z"/>
+							<text x="7500" y="14715" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="7500" dy="50" unicode-bidi="embed">point1[i].x != -1 &amp;&amp; point1[i].y</tspan>
+								<tspan x="7500" dy="50" unicode-bidi="embed"> != -1</tspan>
+							</text>
+						</g>
+						<g>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="8100,15150 8100,15211"/>
+							<polygon fill="#404040" stroke="none" points="8100,15225 8113,15200 8086,15200"/>
+							<g>
+								<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 7925,15050 L 7925,15150 L 8275,15150 L 8275,15050 Z"/>
+								<text x="8100" y="15065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="8100" dy="50" unicode-bidi="embed">point = point1[i]</tspan>
+								</text>
+							</g>
+							<g>
+								<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 7950,15225 L 7950,15325 L 8250,15325 L 8250,15225 Z"/>
+								<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="7975,15225 7975,15325"/>
+								<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="8225,15225 8225,15325"/>
+								<text x="8100" y="15240" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="8100" dy="50" unicode-bidi="embed">break</tspan>
+								</text>
+							</g>
+						</g>
+						<g>
+						</g>
+						<ellipse cx="7500" cy="15425" rx="25" ry="25" fill="#C04040" stroke="#602020" stroke-width="3"/>
+						<text x="8025" y="14690" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="8025" dy="50" unicode-bidi="embed">Prawda</tspan>
+						</text>
+						<text x="6987" y="14690" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="6987" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 6550,14400 L 6500,14450 L 6550,14500 L 7000,14500 L 7050,14450 L 7000,14400 Z"/>
+						<text x="6775" y="14415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="6775" dy="50" unicode-bidi="embed">i = 0 do BoardSize</tspan>
+						</text>
+					</g>
+					<text x="7175" y="14365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="7175" dy="50" unicode-bidi="embed">Nast&#281;pny</tspan>
+					</text>
+					<text x="6637" y="14515" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="6637" dy="50" unicode-bidi="embed">Wykonano</tspan>
+					</text>
+				</g>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="4600,14500 4800,14500 4800,14686"/>
+					<polygon fill="#404040" stroke="none" points="4800,14700 4813,14675 4786,14675"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="4800,14800 4800,16775 4413,16775"/>
+					<polygon fill="#404040" stroke="none" points="4400,16775 4424,16788 4424,16761"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="4150,14500 2400,14500 2400,14661"/>
+					<polygon fill="#404040" stroke="none" points="2400,14675 2413,14650 2386,14650"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2400,16675 2400,16775 4336,16775"/>
+					<polygon fill="#404040" stroke="none" points="4350,16775 4325,16761 4325,16788"/>
+					<g>
+						<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 4375,14375 L 4125,14500 L 4375,14625 L 4625,14500 Z"/>
+						<text x="4375" y="14465" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="4375" dy="50" unicode-bidi="embed">c2 == BoardSize</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="5075,14750 5525,14750 5525,14836"/>
+						<polygon fill="#404040" stroke="none" points="5525,14850 5538,14825 5511,14825"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="5525,15750 5525,15825 4850,15825 4850,14813"/>
+						<polygon fill="#404040" stroke="none" points="4850,14800 4836,14824 4863,14824"/>
+						<g>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="5925,15075 6125,15075 6125,15336"/>
+							<polygon fill="#404040" stroke="none" points="6125,15350 6138,15325 6111,15325"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6125,15625 6125,15725 5563,15725"/>
+							<polygon fill="#404040" stroke="none" points="5550,15725 5574,15738 5574,15711"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="5125,15075 4950,15075 4950,15725 5486,15725"/>
+							<polygon fill="#404040" stroke="none" points="5500,15725 5475,15711 5475,15738"/>
+							<g>
+								<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 5525,14850 L 5100,15075 L 5525,15300 L 5950,15075 Z"/>
+								<text x="5525" y="15015" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="5525" dy="50" unicode-bidi="embed">point2[i].x != -1 &amp;&amp; point2[i].y</tspan>
+									<tspan x="5525" dy="50" unicode-bidi="embed"> != -1</tspan>
+								</text>
+							</g>
+							<g>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="6125,15450 6125,15511"/>
+								<polygon fill="#404040" stroke="none" points="6125,15525 6138,15500 6111,15500"/>
+								<g>
+									<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 5950,15350 L 5950,15450 L 6300,15450 L 6300,15350 Z"/>
+									<text x="6125" y="15365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="6125" dy="50" unicode-bidi="embed">point = point2[i]</tspan>
+									</text>
+								</g>
+								<g>
+									<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 5975,15525 L 5975,15625 L 6275,15625 L 6275,15525 Z"/>
+									<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="6000,15525 6000,15625"/>
+									<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="6250,15525 6250,15625"/>
+									<text x="6125" y="15540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="6125" dy="50" unicode-bidi="embed">break</tspan>
+									</text>
+								</g>
+							</g>
+							<g>
+							</g>
+							<ellipse cx="5525" cy="15725" rx="25" ry="25" fill="#C04040" stroke="#602020" stroke-width="3"/>
+							<text x="6050" y="14990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="6050" dy="50" unicode-bidi="embed">Prawda</tspan>
+							</text>
+							<text x="5012" y="14990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="5012" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+							</text>
+						</g>
+						<g>
+							<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 4575,14700 L 4525,14750 L 4575,14800 L 5025,14800 L 5075,14750 L 5025,14700 Z"/>
+							<text x="4800" y="14715" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="4800" dy="50" unicode-bidi="embed">i = 0 do BoardSize</tspan>
+							</text>
+						</g>
+						<text x="5200" y="14665" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="5200" dy="50" unicode-bidi="embed">Nast&#281;pny</tspan>
+						</text>
+						<text x="4662" y="14815" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="4662" dy="50" unicode-bidi="embed">Wykonano</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2625,14800 2825,14800 2825,14986"/>
+						<polygon fill="#404040" stroke="none" points="2825,15000 2838,14975 2811,14975"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2825,15100 2825,16650 2438,16650"/>
+						<polygon fill="#404040" stroke="none" points="2425,16650 2449,16663 2449,16636"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2175,14800 425,14800 425,14961"/>
+						<polygon fill="#404040" stroke="none" points="425,14975 438,14950 411,14950"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="425,16550 425,16650 2361,16650"/>
+						<polygon fill="#404040" stroke="none" points="2375,16650 2350,16636 2350,16663"/>
+						<g>
+							<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 2400,14675 L 2150,14800 L 2400,14925 L 2650,14800 Z"/>
+							<text x="2400" y="14765" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="2400" dy="50" unicode-bidi="embed">c3 == BoardSize</tspan>
+							</text>
+						</g>
+						<g>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="3100,15050 3550,15050 3550,15136"/>
+							<polygon fill="#404040" stroke="none" points="3550,15150 3563,15125 3536,15125"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="3550,16050 3550,16125 2875,16125 2875,15113"/>
+							<polygon fill="#404040" stroke="none" points="2875,15100 2861,15124 2888,15124"/>
+							<g>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="3950,15375 4150,15375 4150,15636"/>
+								<polygon fill="#404040" stroke="none" points="4150,15650 4163,15625 4136,15625"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="4150,15925 4150,16025 3588,16025"/>
+								<polygon fill="#404040" stroke="none" points="3575,16025 3599,16038 3599,16011"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="3150,15375 2975,15375 2975,16025 3511,16025"/>
+								<polygon fill="#404040" stroke="none" points="3525,16025 3500,16011 3500,16038"/>
+								<g>
+									<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 3550,15150 L 3125,15375 L 3550,15600 L 3975,15375 Z"/>
+									<text x="3550" y="15315" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="3550" dy="50" unicode-bidi="embed">point3[i].x != -1 &amp;&amp; point3[i].y</tspan>
+										<tspan x="3550" dy="50" unicode-bidi="embed"> != -1</tspan>
+									</text>
+								</g>
+								<g>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="4150,15750 4150,15811"/>
+									<polygon fill="#404040" stroke="none" points="4150,15825 4163,15800 4136,15800"/>
+									<g>
+										<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 3975,15650 L 3975,15750 L 4325,15750 L 4325,15650 Z"/>
+										<text x="4150" y="15665" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="4150" dy="50" unicode-bidi="embed">point = point3[i]</tspan>
+										</text>
+									</g>
+									<g>
+										<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 4000,15825 L 4000,15925 L 4300,15925 L 4300,15825 Z"/>
+										<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="4025,15825 4025,15925"/>
+										<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="4275,15825 4275,15925"/>
+										<text x="4150" y="15840" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="4150" dy="50" unicode-bidi="embed">break</tspan>
+										</text>
+									</g>
+								</g>
+								<g>
+								</g>
+								<ellipse cx="3550" cy="16025" rx="25" ry="25" fill="#C04040" stroke="#602020" stroke-width="3"/>
+								<text x="4075" y="15290" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="4075" dy="50" unicode-bidi="embed">Prawda</tspan>
+								</text>
+								<text x="3037" y="15290" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="3037" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+								</text>
+							</g>
+							<g>
+								<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 2600,15000 L 2550,15050 L 2600,15100 L 3050,15100 L 3100,15050 L 3050,15000 Z"/>
+								<text x="2825" y="15015" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="2825" dy="50" unicode-bidi="embed">i = 0 do BoardSize</tspan>
+								</text>
+							</g>
+							<text x="3225" y="14965" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="3225" dy="50" unicode-bidi="embed">Nast&#281;pny</tspan>
+							</text>
+							<text x="2687" y="15115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="2687" dy="50" unicode-bidi="embed">Wykonano</tspan>
+							</text>
+						</g>
+						<g>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="650,15100 850,15100 850,15286"/>
+							<polygon fill="#404040" stroke="none" points="850,15300 863,15275 836,15275"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="850,15400 850,16525 463,16525"/>
+							<polygon fill="#404040" stroke="none" points="450,16525 474,16538 474,16511"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="200,15100 25,15100 25,16525 386,16525"/>
+							<polygon fill="#404040" stroke="none" points="400,16525 375,16511 375,16538"/>
+							<g>
+								<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 425,14975 L 175,15100 L 425,15225 L 675,15100 Z"/>
+								<text x="425" y="15065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="425" dy="50" unicode-bidi="embed">c4 == BoardSize</tspan>
+								</text>
+							</g>
+							<g>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1125,15350 1575,15350 1575,15436"/>
+								<polygon fill="#404040" stroke="none" points="1575,15450 1588,15425 1561,15425"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1575,16350 1575,16425 900,16425 900,15413"/>
+								<polygon fill="#404040" stroke="none" points="900,15400 886,15424 913,15424"/>
+								<g>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1975,15675 2175,15675 2175,15936"/>
+									<polygon fill="#404040" stroke="none" points="2175,15950 2188,15925 2161,15925"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2175,16225 2175,16325 1613,16325"/>
+									<polygon fill="#404040" stroke="none" points="1600,16325 1624,16338 1624,16311"/>
+									<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1175,15675 1000,15675 1000,16325 1536,16325"/>
+									<polygon fill="#404040" stroke="none" points="1550,16325 1525,16311 1525,16338"/>
+									<g>
+										<path fill="#C04040" stroke="#602020" stroke-width="3" stroke-dasharray="none" d="M 1575,15450 L 1150,15675 L 1575,15900 L 2000,15675 Z"/>
+										<text x="1575" y="15615" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+											<tspan x="1575" dy="50" unicode-bidi="embed">point4[i].x != -1 &amp;&amp; point4[i].y</tspan>
+											<tspan x="1575" dy="50" unicode-bidi="embed"> != -1</tspan>
+										</text>
+									</g>
+									<g>
+										<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2175,16050 2175,16111"/>
+										<polygon fill="#404040" stroke="none" points="2175,16125 2188,16100 2161,16100"/>
+										<g>
+											<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 2000,15950 L 2000,16050 L 2350,16050 L 2350,15950 Z"/>
+											<text x="2175" y="15965" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+												<tspan x="2175" dy="50" unicode-bidi="embed">point = point4[i]</tspan>
+											</text>
+										</g>
+										<g>
+											<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 2025,16125 L 2025,16225 L 2325,16225 L 2325,16125 Z"/>
+											<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="2050,16125 2050,16225"/>
+											<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="2300,16125 2300,16225"/>
+											<text x="2175" y="16140" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+												<tspan x="2175" dy="50" unicode-bidi="embed">break</tspan>
+											</text>
+										</g>
+									</g>
+									<g>
+									</g>
+									<ellipse cx="1575" cy="16325" rx="25" ry="25" fill="#C04040" stroke="#602020" stroke-width="3"/>
+									<text x="2100" y="15590" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="2100" dy="50" unicode-bidi="embed">Prawda</tspan>
+									</text>
+									<text x="1062" y="15590" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="1062" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+									</text>
+								</g>
+								<g>
+									<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 625,15300 L 575,15350 L 625,15400 L 1075,15400 L 1125,15350 L 1075,15300 Z"/>
+									<text x="850" y="15315" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="850" dy="50" unicode-bidi="embed">i = 0 do BoardSize</tspan>
+									</text>
+								</g>
+								<text x="1250" y="15265" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1250" dy="50" unicode-bidi="embed">Nast&#281;pny</tspan>
+								</text>
+								<text x="712" y="15415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="712" dy="50" unicode-bidi="embed">Wykonano</tspan>
+								</text>
+							</g>
+							<g>
+							</g>
+							<ellipse cx="425" cy="16525" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+							<text x="775" y="15015" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="775" dy="50" unicode-bidi="embed">Prawda</tspan>
+							</text>
+							<text x="87" y="15015" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="87" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+							</text>
+						</g>
+						<ellipse cx="2400" cy="16650" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+						<text x="2750" y="14715" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="2750" dy="50" unicode-bidi="embed">Prawda</tspan>
+						</text>
+						<text x="2062" y="14715" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="2062" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+						</text>
+					</g>
+					<ellipse cx="4375" cy="16775" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+					<text x="4725" y="14415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="4725" dy="50" unicode-bidi="embed">Prawda</tspan>
+					</text>
+					<text x="4037" y="14415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="4037" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
+					</text>
+				</g>
+				<ellipse cx="6350" cy="16900" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+				<text x="6700" y="14115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6700" dy="50" unicode-bidi="embed">Prawda</tspan>
+				</text>
+				<text x="6012" y="14115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="6012" dy="50" unicode-bidi="embed">Fa&#322;sz</tspan>
 				</text>
 			</g>
 		</g>

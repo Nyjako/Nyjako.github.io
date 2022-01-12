@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 2.30.3 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="650" height="450">
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="325,175 325,311"/>
+		<polygon fill="#404040" stroke="none" points="325,325 338,300 311,300"/>
+		<g>
+			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 100,25 A 75,75 0 0,0 100,175 L 550,175 A 75,75 0 0,0 550,25 Z"/>
+			<text x="325" y="40" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="325" dy="50" unicode-bidi="embed">gameLoop</tspan>
+				<tspan x="325" dy="50" unicode-bidi="embed">(Boolean playWithAI)</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 225,325 A 50,50 0 0,0 225,425 L 425,425 A 50,50 0 0,0 425,325 Z"/>
+			<text x="325" y="340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="325" dy="50" unicode-bidi="embed">Koniec</tspan>
+			</text>
+		</g>
+		<g>
+		</g>
+	</g>
+</svg>
