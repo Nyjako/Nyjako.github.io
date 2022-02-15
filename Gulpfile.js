@@ -2,21 +2,23 @@ const {
     series,
     parallel,
     dest,
-    src
+    src,
+    watch
 } = require('gulp');
-const minify = require('gulp-minify');
+const {spawn, execSync} = require('child_process');
 
 const pug = require('gulp-pug');
 const sass = require('gulp-sass')(require('sass'));
 
-
 const build_pug = (cb) => {
     return src('./src/*.pug') // pug files
         .pipe(pug({
-            ...{pretty: true},
+            ...{
+                pretty: true
+            },
             ...require('./src/pug-data.json')
         }))
-        .pipe(dest('./docs'));
+        .pipe(dest('./docs'))
 }
 const build_scss = (cb) => {
     return src('./src/sass/**/*.scss')
@@ -28,22 +30,37 @@ const build_js = (cb) => {
         .pipe(dest('./docs/js'))
 }
 
+const watch_files = () => {
+    parallel(build_scss, build_js, build_pug)
 
-const minify_html = (cb) => {
-    return src('./docs/*.html')
-        .pipe(minify())
-        .pipe(dest('./docs'))
-}
-const minify_css = (cb) => {
-    return src('./docs/css/*.css')
-        .pipe(minify())
-        .pipe(dest('./docs/css'))
-}
-const minify_js = (cb) => {
-    return src('./docs/js/*.js')
-        .pipe(minify())
-        .pipe(dest('./docs/js'))
+    // Run live-server on docs dir
+    // https://www.npmjs.com/package/live-server
+    let output = execSync("npm ls live-server -g").toString(); // Check if live-server is installed
+    if(!/.*live-server.*/.test(output)) {
+        console.error("live-server is not installed.\nInstall it first 'npm install -g live-server' (https://www.npmjs.com/package/live-server)");
+        process.exit(1);
+    }
+
+    spawn("live-server", [], {
+        cwd: './docs/',
+        env: process.env,
+        detached: true,
+        shell: true
+    });
+
+    watch('src/sass/*.scss', (cb) => {
+        build_scss();
+        cb();
+    });
+    watch('src/js/*.js', (cb) => {
+        build_js();
+        cb();
+    });
+    watch('src/*.pug', (cb) => {
+        build_pug();
+        cb();
+    });
 }
 
-exports.dev = series(parallel(build_pug, build_scss, build_js));
-exports.build = series(parallel(build_pug, build_scss, build_js), parallel(minify_html, minify_css, minify_js));
+exports.build = parallel(build_pug, build_scss, build_js);
+exports.dev = watch_files
