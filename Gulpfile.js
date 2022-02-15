@@ -1,23 +1,18 @@
 const {
-    series,
     parallel,
     dest,
     src,
     watch
 } = require('gulp');
 const {spawn, execSync} = require('child_process');
+const fs = require('fs');
 
 const pug = require('gulp-pug');
 const sass = require('gulp-sass')(require('sass'));
 
 const build_pug = (cb) => {
     return src('./src/*.pug') // pug files
-        .pipe(pug({
-            ...{
-                pretty: true
-            },
-            ...require('./src/pug-data.json')
-        }))
+        .pipe(pug( JSON.parse( fs.readFileSync('./src/pug-data.json') ) ))
         .pipe(dest('./docs'))
 }
 const build_scss = (cb) => {
@@ -50,7 +45,7 @@ const watch_files = () => {
 
     watch('src/sass/*.scss', (cb) => {
         build_scss();
-        cb();
+        cb()
     });
     watch('src/js/*.js', (cb) => {
         build_js();
