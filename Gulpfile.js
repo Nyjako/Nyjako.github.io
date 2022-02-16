@@ -13,7 +13,7 @@ const sass = require('gulp-sass')(require('sass'));
 let build_dest = './docs' 
 
 const build_pug = (cb) => {
-    return src('./src/*.pug') // pug files
+    return src('./src/index.pug') // pug files
         .pipe(pug( JSON.parse( fs.readFileSync('./src/pug-data.json') ) ))
         .pipe(dest(build_dest))
 }
