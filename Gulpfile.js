@@ -10,23 +10,31 @@ const fs = require('fs');
 const pug = require('gulp-pug');
 const sass = require('gulp-sass')(require('sass'));
 
+let build_dest = './docs' 
+
 const build_pug = (cb) => {
     return src('./src/*.pug') // pug files
         .pipe(pug( JSON.parse( fs.readFileSync('./src/pug-data.json') ) ))
-        .pipe(dest('./docs'))
+        .pipe(dest(build_dest))
 }
 const build_scss = (cb) => {
     return src('./src/sass/**/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(dest('./docs/css'))
+        .pipe(dest(build_dest + '/css'))
 }
 const build_js = (cb) => {
     return src('./src/js/**/*.js')
-        .pipe(dest('./docs/js'))
+        .pipe(dest(build_dest + '/js'))
 }
 
 const watch_files = () => {
-    parallel(build_scss, build_js, build_pug)
+    
+    build_dest = './dist';
+    if(!fs.existsSync(build_dest)) {
+        fs.mkdirSync(build_dest);
+    }
+
+    build_all()
 
     // Run live-server on docs dir
     // https://www.npmjs.com/package/live-server
@@ -37,7 +45,7 @@ const watch_files = () => {
     }
 
     spawn("live-server", [], {
-        cwd: './docs/',
+        cwd: build_dest,
         env: process.env,
         detached: true,
         shell: true
@@ -57,5 +65,7 @@ const watch_files = () => {
     });
 }
 
-exports.build = parallel(build_pug, build_scss, build_js);
+const build_all = parallel(build_pug, build_scss, build_js)
+
+exports.build = build_all;
 exports.dev = watch_files
